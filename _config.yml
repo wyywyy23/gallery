@@ -10,7 +10,7 @@ full_name: Yuyang Wang
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
-layout_style: COLUMNS
+layout_style: ROWS
 
 # Variables below are default. Feel free to customize the values below, but do
 # not remove the property.
@@ -28,7 +28,7 @@ columns: 4
 max_height: 400
 
 # Handle
-instagram: wyywyy23
+instagram:
 
 ######################
 # END OF CONFIG CODE #
@@ -56,6 +56,5 @@ category_dir: /
 # Example, you must use http://localhost:4000/path/to/blog
 #baseurl: /path/to/blog
 baseurl: /
-
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 # url: http://andyzhang.net/gallery`
