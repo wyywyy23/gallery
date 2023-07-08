@@ -30,7 +30,7 @@ def get_directories():
 
 
 def is_image_path(path):
-    return re.search(r"\.(jpe?g|png)$", path)
+    return re.search(r"\.(jpe?g|png|JPE?G|PNG)$", path)
 
 
 def get_placeholder_path(path):
@@ -42,7 +42,7 @@ def get_min_path(path):
 
 
 def get_path(path, ext):
-    return re.sub(r"\.(png|jpe?g)$", "." + ext + ".\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + ".\g<1>", path)
 
 
 def get_images(path):

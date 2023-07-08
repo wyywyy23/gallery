@@ -9,6 +9,14 @@
       "placeholder_path": "./photos/The Pacific Northwest/71753213-E9D4-45CF-92D6-51CDD06F1C22-6855-00000430ED436782.placeholder.jpg"
     },
     {
+      "width": 4160,
+      "height": 6240,
+      "path": "./photos/The Pacific Northwest/F2417E4A-CA81-4427-AD45-9C7DBEBEB1DB-6855-0000042F79450B13.JPG",
+      "compressed_path": "./photos/The Pacific Northwest/F2417E4A-CA81-4427-AD45-9C7DBEBEB1DB-6855-0000042F79450B13.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Pacific Northwest/F2417E4A-CA81-4427-AD45-9C7DBEBEB1DB-6855-0000042F79450B13.placeholder.JPG"
+    },
+    {
       "width": 6240,
       "height": 4160,
       "path": "./photos/The Pacific Northwest/DF80E6D7-25E3-4F96-BF5E-0F6839C8D5FF-8040-000004DDFDB1B360_1.jpg",
@@ -83,6 +91,14 @@
       "compressed_path": "./photos/The Blossoms/A30BC6CA-0F76-4784-BCE7-5829A6A478A0-8040-000004E0426342F3_1.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Blossoms/A30BC6CA-0F76-4784-BCE7-5829A6A478A0-8040-000004E0426342F3_1.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./photos/The Blossoms/F7E5BEF1-C364-47E7-BC61-8501D14B48D3-10758-0000066DC8B7A218.JPG",
+      "compressed_path": "./photos/The Blossoms/F7E5BEF1-C364-47E7-BC61-8501D14B48D3-10758-0000066DC8B7A218.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Blossoms/F7E5BEF1-C364-47E7-BC61-8501D14B48D3-10758-0000066DC8B7A218.placeholder.JPG"
     },
     {
       "width": 6188,
@@ -235,6 +251,14 @@
       "placeholder_path": "./photos/The Twilight/Snapseed.placeholder.jpg"
     },
     {
+      "width": 2311,
+      "height": 2889,
+      "path": "./photos/The Twilight/DSCF1380.JPEG",
+      "compressed_path": "./photos/The Twilight/DSCF1380.min.JPEG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Twilight/DSCF1380.placeholder.JPEG"
+    },
+    {
       "width": 5713,
       "height": 2857,
       "path": "./photos/The Twilight/FZ1A8322-HDR.jpg",
@@ -309,6 +333,14 @@
       "compressed_path": "./photos/The Artificial/01C229A9-A705-49BF-B30F-6C101D33C5EC-8040-000004DBBB39DAFA_2.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Artificial/01C229A9-A705-49BF-B30F-6C101D33C5EC-8040-000004DBBB39DAFA_2.placeholder.jpg"
+    },
+    {
+      "width": 6066,
+      "height": 4044,
+      "path": "./photos/The Artificial/DSCF1381.JPEG",
+      "compressed_path": "./photos/The Artificial/DSCF1381.min.JPEG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Artificial/DSCF1381.placeholder.JPEG"
     }
   ],
   "The Forbidden City": [
@@ -513,7 +545,40 @@
       "placeholder_path": "./photos/The Tetons/_Z1A4307_noWM.placeholder.jpg"
     }
   ],
-  "The Canyons": [],
+  "The Canyons": [
+    {
+      "width": 1739,
+      "height": 1159,
+      "path": "./photos/The Canyons/IMG_0862.JPG",
+      "compressed_path": "./photos/The Canyons/IMG_0862.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Canyons/IMG_0862.placeholder.JPG"
+    },
+    {
+      "width": 1080,
+      "height": 720,
+      "path": "./photos/The Canyons/IMG_0733.JPG",
+      "compressed_path": "./photos/The Canyons/IMG_0733.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Canyons/IMG_0733.placeholder.JPG"
+    },
+    {
+      "width": 1776,
+      "height": 1184,
+      "path": "./photos/The Canyons/IMG_0861.JPG",
+      "compressed_path": "./photos/The Canyons/IMG_0861.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Canyons/IMG_0861.placeholder.JPG"
+    },
+    {
+      "width": 1667,
+      "height": 1111,
+      "path": "./photos/The Canyons/IMG_0596.JPG",
+      "compressed_path": "./photos/The Canyons/IMG_0596.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Canyons/IMG_0596.placeholder.JPG"
+    }
+  ],
   "The Creatures": [
     {
       "width": 3465,
