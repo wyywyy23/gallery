@@ -7,6 +7,7 @@ if [[ "$OSTYPE" == "darwin"* && -x "$(command -v sips)" ]]; then
   # sips is available
   rm -rf $SCRIPT_PATH/photos/**/*.min.*
   rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
+  python $SCRIPT_PATH/tools/rename.py
 
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
@@ -31,6 +32,7 @@ if [ -n "$(uname -a | grep Ubuntu)" -a -x "$(command -v mogrify)" ]; then
   # mogrify is available
   rm -rf $SCRIPT_PATH/photos/**/*.min.*
   rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
+  python $SCRIPT_PATH/tools/rename.py
 
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
