@@ -3,27 +3,27 @@ import re
 import shutil
 import sys
 
-PHOTO_PATH = os.path.dirname(__file__) + '/../photos/'
+PHOTO_PATH = os.path.dirname(__file__) + "/../photos/"
 
 
 def is_image_path(path):
-    return re.search(r'\.(jpe?g|png|JPE?G|PNG)$', path)
+    return re.search(r"\.(jpe?g|png|JPE?G|PNG)$", path)
 
 
 def get_min_path(path):
-    return re.sub(r'\.(png|jpe?g|PNG|JPE?G)$', '.min.\g<1>', path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", ".min.\g<1>", path)
 
 
 def get_placeholder_path(path):
-    return re.sub(r'\.(png|jpe?g|PNG|JPE?G)$', '.placeholder.\g<1>', path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", ".placeholder.\g<1>", path)
 
 
 def get_path(path, ext):
-    return re.sub(r'\.(png|jpe?g|PNG|JPE?G)$', '.' + ext + '.\g<1>', path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + ".\g<1>", path)
 
 
 def is_original(path):
-    return '.min.' not in path and '.placeholder.' not in path
+    return ".min." not in path and ".placeholder." not in path
 
 
 def main(ext):
@@ -33,11 +33,11 @@ def main(ext):
             continue
 
         for f in os.listdir(PHOTO_PATH + folder):
-            path = PHOTO_PATH + folder + '/' + f
+            path = PHOTO_PATH + folder + "/" + f
             if is_image_path(path) and is_original(path):
                 min_path = get_path(path, ext)
                 shutil.copy(path, min_path)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main(sys.argv[1])

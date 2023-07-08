@@ -28,11 +28,13 @@ def main():
             continue
 
         # Rename all files to tmp with sequencial numbering
-        for i, f in enumerate(os.listdir(PHOTO_PATH + folder)):
+        i = 0
+        for f in os.listdir(PHOTO_PATH + folder):
             path = PHOTO_PATH + folder + "/" + f
             if is_image_path(path) and is_original(path):
+                i += 1
                 root_ext = os.path.splitext(path)
-                tmp_path = f'{PHOTO_PATH}{folder}/{folder.replace(" ", "_").lower()}_{str(i+1).zfill(3)}{root_ext[1]}.tmp'
+                tmp_path = f'{PHOTO_PATH}{folder}/{folder.replace(" ", "_").lower()}_{str(i).zfill(3)}{root_ext[1]}.tmp'
                 shutil.move(path, tmp_path)
 
         # Remove tmp extention from all files

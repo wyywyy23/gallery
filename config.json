@@ -29,38 +29,46 @@
     {
       "width": 5760,
       "height": 3840,
+      "path": "./photos/The American Riviera/the_american_riviera_001.jpg",
+      "compressed_path": "./photos/The American Riviera/the_american_riviera_001.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The American Riviera/the_american_riviera_001.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The American Riviera/the_american_riviera_002.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_002.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_002.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
+      "width": 2711,
+      "height": 4067,
       "path": "./photos/The American Riviera/the_american_riviera_003.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_003.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_003.placeholder.jpg"
     },
     {
-      "width": 5600,
-      "height": 3733,
+      "width": 5461,
+      "height": 2121,
       "path": "./photos/The American Riviera/the_american_riviera_007.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_007.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_007.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
+      "width": 5600,
+      "height": 3733,
       "path": "./photos/The American Riviera/the_american_riviera_006.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_006.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_006.placeholder.jpg"
     },
     {
-      "width": 2711,
-      "height": 4067,
+      "width": 5760,
+      "height": 3840,
       "path": "./photos/The American Riviera/the_american_riviera_004.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_004.min.jpg",
       "compressed": true,
@@ -73,32 +81,16 @@
       "compressed_path": "./photos/The American Riviera/the_american_riviera_005.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_005.placeholder.jpg"
-    },
-    {
-      "width": 5461,
-      "height": 2121,
-      "path": "./photos/The American Riviera/the_american_riviera_008.jpg",
-      "compressed_path": "./photos/The American Riviera/the_american_riviera_008.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The American Riviera/the_american_riviera_008.placeholder.jpg"
     }
   ],
   "The Blossoms": [
     {
       "width": 6188,
       "height": 1546,
-      "path": "./photos/The Blossoms/the_blossoms_004.jpeg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_004.min.jpeg",
+      "path": "./photos/The Blossoms/the_blossoms_003.jpeg",
+      "compressed_path": "./photos/The Blossoms/the_blossoms_003.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_004.placeholder.jpeg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Blossoms/the_blossoms_006.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_006.placeholder.jpg"
+      "placeholder_path": "./photos/The Blossoms/the_blossoms_003.placeholder.jpeg"
     },
     {
       "width": 5760,
@@ -109,20 +101,28 @@
       "placeholder_path": "./photos/The Blossoms/the_blossoms_005.placeholder.jpg"
     },
     {
-      "width": 4160,
-      "height": 6240,
-      "path": "./photos/The Blossoms/the_blossoms_003.JPG",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_003.min.JPG",
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Blossoms/the_blossoms_004.jpg",
+      "compressed_path": "./photos/The Blossoms/the_blossoms_004.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_003.placeholder.JPG"
+      "placeholder_path": "./photos/The Blossoms/the_blossoms_004.placeholder.jpg"
     },
     {
       "width": 6240,
       "height": 4160,
-      "path": "./photos/The Blossoms/the_blossoms_002.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_002.min.jpg",
+      "path": "./photos/The Blossoms/the_blossoms_001.jpg",
+      "compressed_path": "./photos/The Blossoms/the_blossoms_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_002.placeholder.jpg"
+      "placeholder_path": "./photos/The Blossoms/the_blossoms_001.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./photos/The Blossoms/the_blossoms_002.JPG",
+      "compressed_path": "./photos/The Blossoms/the_blossoms_002.min.JPG",
+      "compressed": true,
+      "placeholder_path": "./photos/The Blossoms/the_blossoms_002.placeholder.JPG"
     }
   ],
   "The Alps": [
@@ -221,14 +221,14 @@
     {
       "width": 2311,
       "height": 2889,
-      "path": "./photos/The Twilight/the_twilight_009.JPEG",
-      "compressed_path": "./photos/The Twilight/the_twilight_009.min.JPEG",
+      "path": "./photos/The Twilight/the_twilight_008.JPEG",
+      "compressed_path": "./photos/The Twilight/the_twilight_008.min.JPEG",
       "compressed": true,
-      "placeholder_path": "./photos/The Twilight/the_twilight_009.placeholder.JPEG"
+      "placeholder_path": "./photos/The Twilight/the_twilight_008.placeholder.JPEG"
     },
     {
-      "width": 5760,
-      "height": 3840,
+      "width": 1776,
+      "height": 772,
       "path": "./photos/The Twilight/the_twilight_007.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_007.min.jpg",
       "compressed": true,
@@ -243,8 +243,8 @@
       "placeholder_path": "./photos/The Twilight/the_twilight_006.placeholder.jpg"
     },
     {
-      "width": 5713,
-      "height": 2857,
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The Twilight/the_twilight_010.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_010.min.jpg",
       "compressed": true,
@@ -253,26 +253,26 @@
     {
       "width": 5616,
       "height": 3744,
+      "path": "./photos/The Twilight/the_twilight_004.jpg",
+      "compressed_path": "./photos/The Twilight/the_twilight_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Twilight/the_twilight_004.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
       "path": "./photos/The Twilight/the_twilight_005.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_005.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Twilight/the_twilight_005.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/The Twilight/the_twilight_011.jpg",
-      "compressed_path": "./photos/The Twilight/the_twilight_011.min.jpg",
+      "width": 5713,
+      "height": 2857,
+      "path": "./photos/The Twilight/the_twilight_009.jpg",
+      "compressed_path": "./photos/The Twilight/the_twilight_009.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Twilight/the_twilight_011.placeholder.jpg"
-    },
-    {
-      "width": 1776,
-      "height": 772,
-      "path": "./photos/The Twilight/the_twilight_008.jpg",
-      "compressed_path": "./photos/The Twilight/the_twilight_008.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Twilight/the_twilight_008.placeholder.jpg"
+      "placeholder_path": "./photos/The Twilight/the_twilight_009.placeholder.jpg"
     }
   ],
   "The Starry Night": [
@@ -285,24 +285,24 @@
       "placeholder_path": "./photos/The Starry Night/the_starry_night_001.placeholder.jpg"
     },
     {
-      "width": 5084,
-      "height": 3389,
+      "width": 3536,
+      "height": 5304,
       "path": "./photos/The Starry Night/the_starry_night_003.jpg",
       "compressed_path": "./photos/The Starry Night/the_starry_night_003.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Starry Night/the_starry_night_003.placeholder.jpg"
     },
     {
-      "width": 5762,
-      "height": 3241,
-      "path": "./photos/The Starry Night/the_starry_night_005.jpg",
-      "compressed_path": "./photos/The Starry Night/the_starry_night_005.min.jpg",
+      "width": 5084,
+      "height": 3389,
+      "path": "./photos/The Starry Night/the_starry_night_002.jpg",
+      "compressed_path": "./photos/The Starry Night/the_starry_night_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Starry Night/the_starry_night_005.placeholder.jpg"
+      "placeholder_path": "./photos/The Starry Night/the_starry_night_002.placeholder.jpg"
     },
     {
-      "width": 3536,
-      "height": 5304,
+      "width": 5762,
+      "height": 3241,
       "path": "./photos/The Starry Night/the_starry_night_004.jpg",
       "compressed_path": "./photos/The Starry Night/the_starry_night_004.min.jpg",
       "compressed": true,
@@ -313,10 +313,10 @@
     {
       "width": 6066,
       "height": 4044,
-      "path": "./photos/The Artificial/the_artificial_005.JPEG",
-      "compressed_path": "./photos/The Artificial/the_artificial_005.min.JPEG",
+      "path": "./photos/The Artificial/the_artificial_004.JPEG",
+      "compressed_path": "./photos/The Artificial/the_artificial_004.min.JPEG",
       "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_005.placeholder.JPEG"
+      "placeholder_path": "./photos/The Artificial/the_artificial_004.placeholder.JPEG"
     },
     {
       "width": 5760,
@@ -337,10 +337,10 @@
     {
       "width": 5407,
       "height": 3379,
-      "path": "./photos/The Artificial/the_artificial_004.jpg",
-      "compressed_path": "./photos/The Artificial/the_artificial_004.min.jpg",
+      "path": "./photos/The Artificial/the_artificial_003.jpg",
+      "compressed_path": "./photos/The Artificial/the_artificial_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_004.placeholder.jpg"
+      "placeholder_path": "./photos/The Artificial/the_artificial_003.placeholder.jpg"
     }
   ],
   "The Forbidden City": [
@@ -581,48 +581,56 @@
   ],
   "The Creatures": [
     {
-      "width": 3328,
-      "height": 4160,
+      "width": 3465,
+      "height": 2310,
+      "path": "./photos/The Creatures/the_creatures_001.jpg",
+      "compressed_path": "./photos/The Creatures/the_creatures_001.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Creatures/the_creatures_001.placeholder.jpg"
+    },
+    {
+      "width": 3178,
+      "height": 4767,
       "path": "./photos/The Creatures/the_creatures_003.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_003.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Creatures/the_creatures_003.placeholder.jpg"
     },
     {
-      "width": 3465,
-      "height": 2310,
+      "width": 3328,
+      "height": 4160,
       "path": "./photos/The Creatures/the_creatures_002.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_002.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Creatures/the_creatures_002.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
+      "width": 3168,
+      "height": 3168,
       "path": "./photos/The Creatures/the_creatures_006.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_006.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Creatures/the_creatures_006.placeholder.jpg"
     },
     {
-      "width": 3168,
-      "height": 3168,
+      "width": 5760,
+      "height": 3840,
       "path": "./photos/The Creatures/the_creatures_007.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_007.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Creatures/the_creatures_007.placeholder.jpg"
     },
     {
-      "width": 3633,
-      "height": 5450,
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The Creatures/the_creatures_005.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_005.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Creatures/the_creatures_005.placeholder.jpg"
     },
     {
-      "width": 3178,
-      "height": 4767,
+      "width": 3633,
+      "height": 5450,
       "path": "./photos/The Creatures/the_creatures_004.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_004.min.jpg",
       "compressed": true,
@@ -631,14 +639,6 @@
     {
       "width": 3840,
       "height": 5760,
-      "path": "./photos/The Creatures/the_creatures_009.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_009.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_009.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
       "path": "./photos/The Creatures/the_creatures_008.jpg",
       "compressed_path": "./photos/The Creatures/the_creatures_008.min.jpg",
       "compressed": true,
@@ -649,22 +649,14 @@
     {
       "width": 5760,
       "height": 3840,
-      "path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.jpg",
-      "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.placeholder.jpg"
-    },
-    {
-      "width": 5658,
-      "height": 3772,
       "path": "./photos/The Islands of Aloha/the_islands_of_aloha_008.jpg",
       "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_008.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_008.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The Islands of Aloha/the_islands_of_aloha_005.jpg",
       "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_005.min.jpg",
       "compressed": true,
@@ -679,28 +671,36 @@
       "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_004.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
+      "width": 5760,
+      "height": 3545,
       "path": "./photos/The Islands of Aloha/the_islands_of_aloha_006.jpg",
       "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_006.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_006.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3545,
+      "width": 5658,
+      "height": 3772,
       "path": "./photos/The Islands of Aloha/the_islands_of_aloha_007.jpg",
       "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_007.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_007.placeholder.jpg"
     },
     {
-      "width": 3840,
+      "width": 5760,
       "height": 3840,
       "path": "./photos/The Islands of Aloha/the_islands_of_aloha_003.jpg",
       "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_003.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_003.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 3840,
+      "path": "./photos/The Islands of Aloha/the_islands_of_aloha_002.jpg",
+      "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_002.placeholder.jpg"
     },
     {
       "width": 3307,
