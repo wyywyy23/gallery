@@ -5,32 +5,50 @@ SCRIPT_PATH=$(dirname "$0")
 # Create a duplicate of each photo, and then minify them
 if [[ "$OSTYPE" == "darwin"* && -x "$(command -v sips)" ]]; then
   # sips is available
+  rm -rf $SCRIPT_PATH/photos/**/*.min.*
+  rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
+
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
   sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.jpeg &>/dev/null
   sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.png &>/dev/null
   sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.jpg &>/dev/null
+  sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.JPEG &>/dev/null
+  sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.PNG &>/dev/null
+  sips -Z 1200 $SCRIPT_PATH/photos/**/*.min.JPG &>/dev/null
 
   # placeholder image for lazy loading
   python $SCRIPT_PATH/tools/duplicate.py placeholder
   sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.jpeg &>/dev/null
   sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.png &>/dev/null
   sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.jpg &>/dev/null
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.JPEG &>/dev/null
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.PNG &>/dev/null
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.JPG &>/dev/null
 fi
 
 if [ -n "$(uname -a | grep Ubuntu)" -a -x "$(command -v mogrify)" ]; then
   # mogrify is available
+  rm -rf $SCRIPT_PATH/photos/**/*.min.*
+  rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
+
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
   mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.jpeg &>/dev/null
   mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.png &>/dev/null
   mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.jpg &>/dev/null
+  mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.JPEG &>/dev/null
+  mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.PNG &>/dev/null
+  mogrify -resize 1200x $SCRIPT_PATH/photos/**/*.min.JPG &>/dev/null
 
   # placeholder image for lazy loading
   python $SCRIPT_PATH/tools/duplicate.py placeholder
   mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.jpeg &>/dev/null
   mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.png &>/dev/null
   mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.jpg &>/dev/null
+  mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.JPEG &>/dev/null
+  mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.PNG &>/dev/null
+  mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.JPG &>/dev/null
 fi  
 
 python $SCRIPT_PATH/tools/setup.py
