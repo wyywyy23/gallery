@@ -43,14 +43,6 @@
       "placeholder_path": "./photos/The American Riviera/_Z1A8147.placeholder.jpg"
     },
     {
-      "width": 2711,
-      "height": 4067,
-      "path": "./photos/The American Riviera/_MG_0451_cropped_no_watermark.jpg",
-      "compressed_path": "./photos/The American Riviera/_MG_0451_cropped_no_watermark.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The American Riviera/_MG_0451_cropped_no_watermark.placeholder.jpg"
-    },
-    {
       "width": 5760,
       "height": 3840,
       "path": "./photos/The American Riviera/_Z1A8194.jpg",
@@ -81,6 +73,14 @@
       "compressed_path": "./photos/The American Riviera/_MG_2678_ps.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The American Riviera/_MG_2678_ps.placeholder.jpg"
+    },
+    {
+      "width": 2711,
+      "height": 4067,
+      "path": "./photos/The American Riviera/IMG_0451_cropped_no_watermark.jpg",
+      "compressed_path": "./photos/The American Riviera/IMG_0451_cropped_no_watermark.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The American Riviera/IMG_0451_cropped_no_watermark.placeholder.jpg"
     }
   ],
   "The Blossoms": [
