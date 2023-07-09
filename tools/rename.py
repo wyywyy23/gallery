@@ -34,7 +34,7 @@ def main():
             if is_image_path(path) and is_original(path):
                 i += 1
                 root_ext = os.path.splitext(path)
-                tmp_path = f'{PHOTO_PATH}{folder}/{folder.replace(" ", "_").lower()}_{str(i).zfill(3)}{root_ext[1]}.tmp'
+                tmp_path = f'{PHOTO_PATH}{folder}/{folder.replace(" ", "_").lower()}_{str(i).zfill(3)}{root_ext[1].lower()}.tmp'
                 shutil.move(path, tmp_path)
 
         # Remove tmp extention from all files

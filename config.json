@@ -11,10 +11,10 @@
     {
       "width": 4160,
       "height": 6240,
-      "path": "./photos/The Pacific Northwest/the_pacific_northwest_002.JPG",
-      "compressed_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.min.JPG",
+      "path": "./photos/The Pacific Northwest/the_pacific_northwest_002.jpg",
+      "compressed_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.placeholder.JPG"
+      "placeholder_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.placeholder.jpg"
     },
     {
       "width": 6173,
@@ -119,10 +119,10 @@
     {
       "width": 4160,
       "height": 6240,
-      "path": "./photos/The Blossoms/the_blossoms_002.JPG",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_002.min.JPG",
+      "path": "./photos/The Blossoms/the_blossoms_002.jpg",
+      "compressed_path": "./photos/The Blossoms/the_blossoms_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_002.placeholder.JPG"
+      "placeholder_path": "./photos/The Blossoms/the_blossoms_002.placeholder.jpg"
     }
   ],
   "The Alps": [
@@ -221,10 +221,10 @@
     {
       "width": 2311,
       "height": 2889,
-      "path": "./photos/The Twilight/the_twilight_008.JPEG",
-      "compressed_path": "./photos/The Twilight/the_twilight_008.min.JPEG",
+      "path": "./photos/The Twilight/the_twilight_008.jpeg",
+      "compressed_path": "./photos/The Twilight/the_twilight_008.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/The Twilight/the_twilight_008.placeholder.JPEG"
+      "placeholder_path": "./photos/The Twilight/the_twilight_008.placeholder.jpeg"
     },
     {
       "width": 1776,
@@ -313,10 +313,10 @@
     {
       "width": 6066,
       "height": 4044,
-      "path": "./photos/The Artificial/the_artificial_004.JPEG",
-      "compressed_path": "./photos/The Artificial/the_artificial_004.min.JPEG",
+      "path": "./photos/The Artificial/the_artificial_004.jpeg",
+      "compressed_path": "./photos/The Artificial/the_artificial_004.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_004.placeholder.JPEG"
+      "placeholder_path": "./photos/The Artificial/the_artificial_004.placeholder.jpeg"
     },
     {
       "width": 5760,
@@ -549,34 +549,34 @@
     {
       "width": 1776,
       "height": 1184,
-      "path": "./photos/The Canyons/the_canyons_003.JPG",
-      "compressed_path": "./photos/The Canyons/the_canyons_003.min.JPG",
+      "path": "./photos/The Canyons/the_canyons_003.jpg",
+      "compressed_path": "./photos/The Canyons/the_canyons_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_003.placeholder.JPG"
+      "placeholder_path": "./photos/The Canyons/the_canyons_003.placeholder.jpg"
     },
     {
       "width": 1080,
       "height": 720,
-      "path": "./photos/The Canyons/the_canyons_002.JPG",
-      "compressed_path": "./photos/The Canyons/the_canyons_002.min.JPG",
+      "path": "./photos/The Canyons/the_canyons_002.jpg",
+      "compressed_path": "./photos/The Canyons/the_canyons_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_002.placeholder.JPG"
+      "placeholder_path": "./photos/The Canyons/the_canyons_002.placeholder.jpg"
     },
     {
       "width": 1739,
       "height": 1159,
-      "path": "./photos/The Canyons/the_canyons_001.JPG",
-      "compressed_path": "./photos/The Canyons/the_canyons_001.min.JPG",
+      "path": "./photos/The Canyons/the_canyons_001.jpg",
+      "compressed_path": "./photos/The Canyons/the_canyons_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_001.placeholder.JPG"
+      "placeholder_path": "./photos/The Canyons/the_canyons_001.placeholder.jpg"
     },
     {
       "width": 1667,
       "height": 1111,
-      "path": "./photos/The Canyons/the_canyons_004.JPG",
-      "compressed_path": "./photos/The Canyons/the_canyons_004.min.JPG",
+      "path": "./photos/The Canyons/the_canyons_004.jpg",
+      "compressed_path": "./photos/The Canyons/the_canyons_004.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_004.placeholder.JPG"
+      "placeholder_path": "./photos/The Canyons/the_canyons_004.placeholder.jpg"
     }
   ],
   "The Creatures": [
