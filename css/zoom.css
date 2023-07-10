@@ -19,7 +19,11 @@ img[data-action="zoom"] {
   .zoom-overlay {
     z-index: 420;
     background: #fff;
-    position: relative;
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
     pointer-events: none;
     filter: "alpha(opacity=0)";
     opacity: 0;
