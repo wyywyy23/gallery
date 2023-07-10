@@ -1,28 +1,36 @@
 {
-  "The Pacific Northwest": [
+  "The Swiss Alps": [
     {
-      "width": 6240,
-      "height": 4160,
-      "path": "./photos/The Pacific Northwest/the_pacific_northwest_003.jpg",
-      "compressed_path": "./photos/The Pacific Northwest/the_pacific_northwest_003.min.jpg",
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Swiss Alps/the_swiss_alps_002.jpg",
+      "compressed_path": "./photos/The Swiss Alps/the_swiss_alps_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Pacific Northwest/the_pacific_northwest_003.placeholder.jpg"
+      "placeholder_path": "./photos/The Swiss Alps/the_swiss_alps_002.placeholder.jpg"
     },
     {
-      "width": 4160,
-      "height": 6240,
-      "path": "./photos/The Pacific Northwest/the_pacific_northwest_002.jpg",
-      "compressed_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.min.jpg",
+      "width": 3711,
+      "height": 5566,
+      "path": "./photos/The Swiss Alps/the_swiss_alps_003.jpg",
+      "compressed_path": "./photos/The Swiss Alps/the_swiss_alps_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Pacific Northwest/the_pacific_northwest_002.placeholder.jpg"
+      "placeholder_path": "./photos/The Swiss Alps/the_swiss_alps_003.placeholder.jpg"
     },
     {
-      "width": 6173,
-      "height": 4115,
-      "path": "./photos/The Pacific Northwest/the_pacific_northwest_001.jpg",
-      "compressed_path": "./photos/The Pacific Northwest/the_pacific_northwest_001.min.jpg",
+      "width": 3808,
+      "height": 5712,
+      "path": "./photos/The Swiss Alps/the_swiss_alps_001.jpg",
+      "compressed_path": "./photos/The Swiss Alps/the_swiss_alps_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Pacific Northwest/the_pacific_northwest_001.placeholder.jpg"
+      "placeholder_path": "./photos/The Swiss Alps/the_swiss_alps_001.placeholder.jpg"
+    },
+    {
+      "width": 3745,
+      "height": 5617,
+      "path": "./photos/The Swiss Alps/the_swiss_alps_004.jpg",
+      "compressed_path": "./photos/The Swiss Alps/the_swiss_alps_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Swiss Alps/the_swiss_alps_004.placeholder.jpg"
     }
   ],
   "The American Riviera": [
@@ -35,8 +43,8 @@
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_001.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
+      "width": 5760,
+      "height": 3840,
       "path": "./photos/The American Riviera/the_american_riviera_002.jpg",
       "compressed_path": "./photos/The American Riviera/the_american_riviera_002.min.jpg",
       "compressed": true,
@@ -83,114 +91,146 @@
       "placeholder_path": "./photos/The American Riviera/the_american_riviera_005.placeholder.jpg"
     }
   ],
-  "The Blossoms": [
+  "The Scars of the Land": [
     {
-      "width": 6188,
-      "height": 1546,
-      "path": "./photos/The Blossoms/the_blossoms_003.jpeg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_003.min.jpeg",
+      "width": 1080,
+      "height": 720,
+      "path": "./photos/The Scars of the Land/the_scars_of_the_land_002.jpg",
+      "compressed_path": "./photos/The Scars of the Land/the_scars_of_the_land_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_003.placeholder.jpeg"
+      "placeholder_path": "./photos/The Scars of the Land/the_scars_of_the_land_002.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Blossoms/the_blossoms_005.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_005.min.jpg",
+      "width": 1776,
+      "height": 1184,
+      "path": "./photos/The Scars of the Land/the_scars_of_the_land_003.jpg",
+      "compressed_path": "./photos/The Scars of the Land/the_scars_of_the_land_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_005.placeholder.jpg"
+      "placeholder_path": "./photos/The Scars of the Land/the_scars_of_the_land_003.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Blossoms/the_blossoms_004.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_004.min.jpg",
+      "width": 1739,
+      "height": 1159,
+      "path": "./photos/The Scars of the Land/the_scars_of_the_land_001.jpg",
+      "compressed_path": "./photos/The Scars of the Land/the_scars_of_the_land_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_004.placeholder.jpg"
+      "placeholder_path": "./photos/The Scars of the Land/the_scars_of_the_land_001.placeholder.jpg"
     },
     {
-      "width": 6240,
-      "height": 4160,
-      "path": "./photos/The Blossoms/the_blossoms_001.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_001.min.jpg",
+      "width": 1667,
+      "height": 1111,
+      "path": "./photos/The Scars of the Land/the_scars_of_the_land_004.jpg",
+      "compressed_path": "./photos/The Scars of the Land/the_scars_of_the_land_004.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_001.placeholder.jpg"
-    },
-    {
-      "width": 4160,
-      "height": 6240,
-      "path": "./photos/The Blossoms/the_blossoms_002.jpg",
-      "compressed_path": "./photos/The Blossoms/the_blossoms_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Blossoms/the_blossoms_002.placeholder.jpg"
+      "placeholder_path": "./photos/The Scars of the Land/the_scars_of_the_land_004.placeholder.jpg"
     }
   ],
-  "The Alps": [
-    {
-      "width": 3711,
-      "height": 5566,
-      "path": "./photos/The Alps/the_alps_003.jpg",
-      "compressed_path": "./photos/The Alps/the_alps_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Alps/the_alps_003.placeholder.jpg"
-    },
+  "The Rockies": [
     {
       "width": 5760,
       "height": 3840,
-      "path": "./photos/The Alps/the_alps_002.jpg",
-      "compressed_path": "./photos/The Alps/the_alps_002.min.jpg",
+      "path": "./photos/The Rockies/the_rockies_007.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_007.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Alps/the_alps_002.placeholder.jpg"
-    },
-    {
-      "width": 3808,
-      "height": 5712,
-      "path": "./photos/The Alps/the_alps_001.jpg",
-      "compressed_path": "./photos/The Alps/the_alps_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Alps/the_alps_001.placeholder.jpg"
-    },
-    {
-      "width": 3745,
-      "height": 5617,
-      "path": "./photos/The Alps/the_alps_004.jpg",
-      "compressed_path": "./photos/The Alps/the_alps_004.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Alps/the_alps_004.placeholder.jpg"
-    }
-  ],
-  "The Central California": [
-    {
-      "width": 5491,
-      "height": 3661,
-      "path": "./photos/The Central California/the_central_california_002.jpg",
-      "compressed_path": "./photos/The Central California/the_central_california_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Central California/the_central_california_002.placeholder.jpg"
+      "placeholder_path": "./photos/The Rockies/the_rockies_007.placeholder.jpg"
     },
     {
       "width": 3840,
       "height": 5760,
-      "path": "./photos/The Central California/the_central_california_003.jpg",
-      "compressed_path": "./photos/The Central California/the_central_california_003.min.jpg",
+      "path": "./photos/The Rockies/the_rockies_006.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_006.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Central California/the_central_california_003.placeholder.jpg"
+      "placeholder_path": "./photos/The Rockies/the_rockies_006.placeholder.jpg"
+    },
+    {
+      "width": 3633,
+      "height": 5450,
+      "path": "./photos/The Rockies/the_rockies_004.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Rockies/the_rockies_004.placeholder.jpg"
+    },
+    {
+      "width": 3239,
+      "height": 4859,
+      "path": "./photos/The Rockies/the_rockies_005.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_005.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Rockies/the_rockies_005.placeholder.jpg"
+    },
+    {
+      "width": 3357,
+      "height": 5035,
+      "path": "./photos/The Rockies/the_rockies_001.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_001.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Rockies/the_rockies_001.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3240,
+      "path": "./photos/The Rockies/the_rockies_002.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Rockies/the_rockies_002.placeholder.jpg"
+    },
+    {
+      "width": 5535,
+      "height": 3113,
+      "path": "./photos/The Rockies/the_rockies_003.jpg",
+      "compressed_path": "./photos/The Rockies/the_rockies_003.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Rockies/the_rockies_003.placeholder.jpg"
+    }
+  ],
+  "The White Waters": [
+    {
+      "width": 6173,
+      "height": 4115,
+      "path": "./photos/The White Waters/the_white_waters_002.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The White Waters/the_white_waters_002.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./photos/The White Waters/the_white_waters_003.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_003.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The White Waters/the_white_waters_003.placeholder.jpg"
     },
     {
       "width": 5737,
       "height": 3828,
-      "path": "./photos/The Central California/the_central_california_001.jpg",
-      "compressed_path": "./photos/The Central California/the_central_california_001.min.jpg",
+      "path": "./photos/The White Waters/the_white_waters_001.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Central California/the_central_california_001.placeholder.jpg"
+      "placeholder_path": "./photos/The White Waters/the_white_waters_001.placeholder.jpg"
+    },
+    {
+      "width": 5491,
+      "height": 3661,
+      "path": "./photos/The White Waters/the_white_waters_004.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The White Waters/the_white_waters_004.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/The White Waters/the_white_waters_005.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_005.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The White Waters/the_white_waters_005.placeholder.jpg"
     },
     {
       "width": 3744,
       "height": 5616,
-      "path": "./photos/The Central California/the_central_california_004.jpg",
-      "compressed_path": "./photos/The Central California/the_central_california_004.min.jpg",
+      "path": "./photos/The White Waters/the_white_waters_006.jpg",
+      "compressed_path": "./photos/The White Waters/the_white_waters_006.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/The Central California/the_central_california_004.placeholder.jpg"
+      "placeholder_path": "./photos/The White Waters/the_white_waters_006.placeholder.jpg"
     }
   ],
   "The Twilight": [
@@ -203,16 +243,16 @@
       "placeholder_path": "./photos/The Twilight/the_twilight_001.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
+      "width": 4566,
+      "height": 2283,
       "path": "./photos/The Twilight/the_twilight_002.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_002.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Twilight/the_twilight_002.placeholder.jpg"
     },
     {
-      "width": 4566,
-      "height": 2283,
+      "width": 5616,
+      "height": 3744,
       "path": "./photos/The Twilight/the_twilight_003.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_003.min.jpg",
       "compressed": true,
@@ -243,32 +283,24 @@
       "placeholder_path": "./photos/The Twilight/the_twilight_006.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/The Twilight/the_twilight_010.jpg",
-      "compressed_path": "./photos/The Twilight/the_twilight_010.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Twilight/the_twilight_010.placeholder.jpg"
-    },
-    {
-      "width": 5616,
-      "height": 3744,
+      "width": 5760,
+      "height": 3840,
       "path": "./photos/The Twilight/the_twilight_004.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_004.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Twilight/the_twilight_004.placeholder.jpg"
     },
     {
-      "width": 5760,
-      "height": 3840,
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The Twilight/the_twilight_005.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_005.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Twilight/the_twilight_005.placeholder.jpg"
     },
     {
-      "width": 5713,
-      "height": 2857,
+      "width": 3840,
+      "height": 5760,
       "path": "./photos/The Twilight/the_twilight_009.jpg",
       "compressed_path": "./photos/The Twilight/the_twilight_009.min.jpg",
       "compressed": true,
@@ -307,58 +339,6 @@
       "compressed_path": "./photos/The Starry Night/the_starry_night_004.min.jpg",
       "compressed": true,
       "placeholder_path": "./photos/The Starry Night/the_starry_night_004.placeholder.jpg"
-    }
-  ],
-  "The Artificial": [
-    {
-      "width": 6066,
-      "height": 4044,
-      "path": "./photos/The Artificial/the_artificial_004.jpeg",
-      "compressed_path": "./photos/The Artificial/the_artificial_004.min.jpeg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_004.placeholder.jpeg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Artificial/the_artificial_001.jpg",
-      "compressed_path": "./photos/The Artificial/the_artificial_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_001.placeholder.jpg"
-    },
-    {
-      "width": 4753,
-      "height": 3733,
-      "path": "./photos/The Artificial/the_artificial_002.jpg",
-      "compressed_path": "./photos/The Artificial/the_artificial_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_002.placeholder.jpg"
-    },
-    {
-      "width": 5407,
-      "height": 3379,
-      "path": "./photos/The Artificial/the_artificial_003.jpg",
-      "compressed_path": "./photos/The Artificial/the_artificial_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Artificial/the_artificial_003.placeholder.jpg"
-    }
-  ],
-  "The Forbidden City": [
-    {
-      "width": 5688,
-      "height": 3200,
-      "path": "./photos/The Forbidden City/the_forbidden_city_002.jpg",
-      "compressed_path": "./photos/The Forbidden City/the_forbidden_city_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Forbidden City/the_forbidden_city_002.placeholder.jpg"
-    },
-    {
-      "width": 4781,
-      "height": 3824,
-      "path": "./photos/The Forbidden City/the_forbidden_city_001.jpg",
-      "compressed_path": "./photos/The Forbidden City/the_forbidden_city_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Forbidden City/the_forbidden_city_001.placeholder.jpg"
     }
   ],
   "The Last Frontier": [
@@ -445,6 +425,162 @@
       "placeholder_path": "./photos/The High Sierra/the_high_sierra_001.placeholder.jpg"
     }
   ],
+  "The Life Forms": [
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./photos/The Life Forms/the_life_forms_008.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_008.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_008.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Life Forms/the_life_forms_009.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_009.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_009.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/The Life Forms/the_life_forms_013.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_013.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_013.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./photos/The Life Forms/the_life_forms_006.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_006.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_006.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Life Forms/the_life_forms_012.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_012.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_012.placeholder.jpg"
+    },
+    {
+      "width": 3178,
+      "height": 4767,
+      "path": "./photos/The Life Forms/the_life_forms_004.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_004.placeholder.jpg"
+    },
+    {
+      "width": 3168,
+      "height": 3168,
+      "path": "./photos/The Life Forms/the_life_forms_010.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_010.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_010.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Life Forms/the_life_forms_011.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_011.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_011.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/The Life Forms/the_life_forms_005.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_005.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_005.placeholder.jpg"
+    },
+    {
+      "width": 3465,
+      "height": 2310,
+      "path": "./photos/The Life Forms/the_life_forms_001.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_001.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_001.placeholder.jpg"
+    },
+    {
+      "width": 6188,
+      "height": 1546,
+      "path": "./photos/The Life Forms/the_life_forms_007.jpeg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_007.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_007.placeholder.jpeg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./photos/The Life Forms/the_life_forms_002.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_002.placeholder.jpg"
+    },
+    {
+      "width": 3328,
+      "height": 4160,
+      "path": "./photos/The Life Forms/the_life_forms_003.jpg",
+      "compressed_path": "./photos/The Life Forms/the_life_forms_003.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Life Forms/the_life_forms_003.placeholder.jpg"
+    }
+  ],
+  "The Heritage": [
+    {
+      "width": 6066,
+      "height": 4044,
+      "path": "./photos/The Heritage/the_heritage_005.jpeg",
+      "compressed_path": "./photos/The Heritage/the_heritage_005.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_005.placeholder.jpeg"
+    },
+    {
+      "width": 5407,
+      "height": 3379,
+      "path": "./photos/The Heritage/the_heritage_004.jpg",
+      "compressed_path": "./photos/The Heritage/the_heritage_004.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_004.placeholder.jpg"
+    },
+    {
+      "width": 5688,
+      "height": 3200,
+      "path": "./photos/The Heritage/the_heritage_006.jpg",
+      "compressed_path": "./photos/The Heritage/the_heritage_006.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_006.placeholder.jpg"
+    },
+    {
+      "width": 4753,
+      "height": 3733,
+      "path": "./photos/The Heritage/the_heritage_002.jpg",
+      "compressed_path": "./photos/The Heritage/the_heritage_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_002.placeholder.jpg"
+    },
+    {
+      "width": 4781,
+      "height": 3824,
+      "path": "./photos/The Heritage/the_heritage_003.jpg",
+      "compressed_path": "./photos/The Heritage/the_heritage_003.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_003.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/The Heritage/the_heritage_001.jpg",
+      "compressed_path": "./photos/The Heritage/the_heritage_001.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Heritage/the_heritage_001.placeholder.jpg"
+    }
+  ],
   "The Pearl of the Orient": [
     {
       "width": 4160,
@@ -495,157 +631,15 @@
       "placeholder_path": "./photos/The Pearl of the Orient/the_pearl_of_the_orient_005.placeholder.jpeg"
     }
   ],
-  "The Tetons": [
-    {
-      "width": 5760,
-      "height": 3240,
-      "path": "./photos/The Tetons/the_tetons_002.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_002.placeholder.jpg"
-    },
-    {
-      "width": 5535,
-      "height": 3113,
-      "path": "./photos/The Tetons/the_tetons_003.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_003.placeholder.jpg"
-    },
-    {
-      "width": 3357,
-      "height": 5035,
-      "path": "./photos/The Tetons/the_tetons_001.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_001.placeholder.jpg"
-    },
-    {
-      "width": 3239,
-      "height": 4859,
-      "path": "./photos/The Tetons/the_tetons_004.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_004.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_004.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/The Tetons/the_tetons_005.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_005.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_005.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Tetons/the_tetons_006.jpg",
-      "compressed_path": "./photos/The Tetons/the_tetons_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Tetons/the_tetons_006.placeholder.jpg"
-    }
-  ],
-  "The Canyons": [
-    {
-      "width": 1776,
-      "height": 1184,
-      "path": "./photos/The Canyons/the_canyons_003.jpg",
-      "compressed_path": "./photos/The Canyons/the_canyons_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_003.placeholder.jpg"
-    },
-    {
-      "width": 1080,
-      "height": 720,
-      "path": "./photos/The Canyons/the_canyons_002.jpg",
-      "compressed_path": "./photos/The Canyons/the_canyons_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_002.placeholder.jpg"
-    },
-    {
-      "width": 1739,
-      "height": 1159,
-      "path": "./photos/The Canyons/the_canyons_001.jpg",
-      "compressed_path": "./photos/The Canyons/the_canyons_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_001.placeholder.jpg"
-    },
-    {
-      "width": 1667,
-      "height": 1111,
-      "path": "./photos/The Canyons/the_canyons_004.jpg",
-      "compressed_path": "./photos/The Canyons/the_canyons_004.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Canyons/the_canyons_004.placeholder.jpg"
-    }
-  ],
-  "The Creatures": [
-    {
-      "width": 3465,
-      "height": 2310,
-      "path": "./photos/The Creatures/the_creatures_001.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_001.placeholder.jpg"
-    },
-    {
-      "width": 3178,
-      "height": 4767,
-      "path": "./photos/The Creatures/the_creatures_003.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_003.placeholder.jpg"
-    },
-    {
-      "width": 3328,
-      "height": 4160,
-      "path": "./photos/The Creatures/the_creatures_002.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_002.placeholder.jpg"
-    },
-    {
-      "width": 3168,
-      "height": 3168,
-      "path": "./photos/The Creatures/the_creatures_006.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_006.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/The Creatures/the_creatures_007.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_007.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_007.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/The Creatures/the_creatures_005.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_005.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_005.placeholder.jpg"
-    },
-    {
-      "width": 3633,
-      "height": 5450,
-      "path": "./photos/The Creatures/the_creatures_004.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_004.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_004.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/The Creatures/the_creatures_008.jpg",
-      "compressed_path": "./photos/The Creatures/the_creatures_008.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/The Creatures/the_creatures_008.placeholder.jpg"
-    }
-  ],
   "The Islands of Aloha": [
+    {
+      "width": 5713,
+      "height": 2857,
+      "path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.jpg",
+      "compressed_path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/The Islands of Aloha/the_islands_of_aloha_009.placeholder.jpg"
+    },
     {
       "width": 5760,
       "height": 3840,
