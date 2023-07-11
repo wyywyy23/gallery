@@ -134,8 +134,8 @@
 			targetImageWrap = document.createElement('div')
 			targetImageWrap.className = 'zoom-img-wrap'
 			targetImageWrap.style.position = 'absolute'
-			targetImageWrap.style.top = offset(targetImage.currentSrc || targetImage.src).top + 'px'
-			targetImageWrap.style.left = offset(targetImage.currentSrc || targetImage.src).left + 'px'
+			targetImageWrap.style.top = offset(targetImage).top + 'px'
+			targetImageWrap.style.left = offset(targetImage).left + 'px'
 
 			targetImageClone = targetImage.cloneNode()
 			targetImageClone.style.visibility = 'hidden'
@@ -236,7 +236,7 @@
 			if (!targetImageWrap || !targetImageWrap.parentNode) return
 
 			targetImage.classList.remove('zoom-img')
-			targetImage.style.width = ''
+			// targetImage.style.width = ''
 			targetImage.setAttribute('data-action', 'zoom')
 
 			targetImageClone.parentNode.replaceChild(targetImage, targetImageClone)
