@@ -140,7 +140,7 @@
 			targetImageClone = targetImage.cloneNode()
 			targetImageClone.style.visibility = 'hidden'
 
-			targetImage.style.width = targetImage.offsetWidth + 'px'
+			// targetImage.style.width = targetImage.offsetWidth + 'px'
 			targetImage.parentNode.replaceChild(targetImageClone, targetImage)
 
 			document.body.appendChild(targetImageWrap)
