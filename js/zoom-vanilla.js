@@ -135,7 +135,11 @@
 			targetImageWrap.className = 'zoom-img-wrap'
 			targetImageWrap.style.position = 'absolute'
 			targetImageWrap.style.top = offset(targetImage).top + 'px'
-			targetImageWrap.style.left = 0 + 'px'
+            if (targetImage.style.marginLeft) {
+                targetImageWrap.style.left = offset(targetImage).left - parseInt(targetImage.style.marginLeft.replace(/px/,"")) + 'px'
+            } else {
+                targetImageWrap.style.left = offset(targetImage).left + 'px'
+            }
 
 			targetImageClone = targetImage.cloneNode()
 			targetImageClone.style.visibility = 'hidden'
