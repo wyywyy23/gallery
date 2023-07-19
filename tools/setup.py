@@ -81,7 +81,7 @@ def write_config(config):
 def run():
     print("Starting to collect all albums within the /photos directory...")
     config = {}
-    dirs = sorted(get_directories())
+    dirs = sorted(get_directories(), reverse=True)
     print("Found {length} directories".format(length=len(dirs)))
     for i, path in enumerate(dirs):
         print(

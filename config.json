@@ -1,480 +1,470 @@
 {
-  "I": [
+  "Chapter II": [
     {
-      "width": 4160,
-      "height": 6240,
-      "path": "./photos/I/i_010.jpg",
-      "compressed_path": "./photos/I/i_010.min.jpg",
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/Chapter II/chapter_ii_028.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_028.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_010.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_028.placeholder.jpg"
     },
     {
-      "width": 6240,
-      "height": 4160,
-      "path": "./photos/I/i_011.jpg",
-      "compressed_path": "./photos/I/i_011.min.jpg",
+      "width": 1989,
+      "height": 3148,
+      "path": "./photos/Chapter II/chapter_ii_001.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_011.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_001.placeholder.jpg"
     },
     {
-      "width": 1080,
-      "height": 720,
-      "path": "./photos/I/i_013.jpg",
-      "compressed_path": "./photos/I/i_013.min.jpg",
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/Chapter II/chapter_ii_015.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_015.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_013.placeholder.jpg"
-    },
-    {
-      "width": 3328,
-      "height": 4160,
-      "path": "./photos/I/i_007.jpg",
-      "compressed_path": "./photos/I/i_007.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_007.placeholder.jpg"
-    },
-    {
-      "width": 6240,
-      "height": 4160,
-      "path": "./photos/I/i_006.jpg",
-      "compressed_path": "./photos/I/i_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_006.placeholder.jpg"
-    },
-    {
-      "width": 1776,
-      "height": 772,
-      "path": "./photos/I/i_012.jpg",
-      "compressed_path": "./photos/I/i_012.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_012.placeholder.jpg"
-    },
-    {
-      "width": 6173,
-      "height": 4115,
-      "path": "./photos/I/i_002.jpg",
-      "compressed_path": "./photos/I/i_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_002.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_015.placeholder.jpg"
     },
     {
       "width": 4160,
       "height": 6240,
-      "path": "./photos/I/i_003.jpg",
-      "compressed_path": "./photos/I/i_003.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_003.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_003.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_003.placeholder.jpg"
     },
     {
-      "width": 1667,
-      "height": 1111,
-      "path": "./photos/I/i_017.jpg",
-      "compressed_path": "./photos/I/i_017.min.jpg",
+      "width": 1739,
+      "height": 697,
+      "path": "./photos/Chapter II/chapter_ii_017.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_017.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_017.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_017.placeholder.jpg"
     },
     {
-      "width": 1776,
-      "height": 1184,
-      "path": "./photos/I/i_014.jpg",
-      "compressed_path": "./photos/I/i_014.min.jpg",
+      "width": 3733,
+      "height": 2566,
+      "path": "./photos/Chapter II/chapter_ii_016.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_016.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_014.placeholder.jpg"
-    },
-    {
-      "width": 6199,
-      "height": 4132,
-      "path": "./photos/I/i_001.jpeg",
-      "compressed_path": "./photos/I/i_001.min.jpeg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_001.placeholder.jpeg"
-    },
-    {
-      "width": 4160,
-      "height": 5200,
-      "path": "./photos/I/i_016.jpeg",
-      "compressed_path": "./photos/I/i_016.min.jpeg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_016.placeholder.jpeg"
-    },
-    {
-      "width": 4559,
-      "height": 3039,
-      "path": "./photos/I/i_015.jpeg",
-      "compressed_path": "./photos/I/i_015.min.jpeg",
-      "compressed": true,
-      "placeholder_path": "./photos/I/i_015.placeholder.jpeg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_016.placeholder.jpg"
     },
     {
       "width": 6226,
       "height": 3112,
-      "path": "./photos/I/i_005.jpeg",
-      "compressed_path": "./photos/I/i_005.min.jpeg",
+      "path": "./photos/Chapter II/chapter_ii_006.jpeg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_006.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_005.placeholder.jpeg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_006.placeholder.jpeg"
     },
     {
-      "width": 6035,
-      "height": 4023,
-      "path": "./photos/I/i_009.jpeg",
-      "compressed_path": "./photos/I/i_009.min.jpeg",
+      "width": 6173,
+      "height": 4115,
+      "path": "./photos/Chapter II/chapter_ii_002.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_009.placeholder.jpeg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_002.placeholder.jpg"
     },
     {
       "width": 6240,
       "height": 4160,
-      "path": "./photos/I/i_008.jpg",
-      "compressed_path": "./photos/I/i_008.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_012.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_012.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_008.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_012.placeholder.jpg"
     },
     {
-      "width": 2790,
-      "height": 1860,
-      "path": "./photos/I/i_004.jpeg",
-      "compressed_path": "./photos/I/i_004.min.jpeg",
+      "width": 5407,
+      "height": 3379,
+      "path": "./photos/Chapter II/chapter_ii_013.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_013.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/I/i_004.placeholder.jpeg"
-    }
-  ],
-  "II": [
+      "placeholder_path": "./photos/Chapter II/chapter_ii_013.placeholder.jpg"
+    },
+    {
+      "width": 2510,
+      "height": 2278,
+      "path": "./photos/Chapter II/chapter_ii_007.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_007.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_007.placeholder.jpg"
+    },
+    {
+      "width": 3328,
+      "height": 4160,
+      "path": "./photos/Chapter II/chapter_ii_011.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_011.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_011.placeholder.jpg"
+    },
     {
       "width": 4566,
       "height": 2283,
-      "path": "./photos/II/ii_003.jpg",
-      "compressed_path": "./photos/II/ii_003.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_005.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_005.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/II/ii_003.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_005.placeholder.jpg"
     },
     {
-      "width": 3840,
+      "width": 6240,
+      "height": 4160,
+      "path": "./photos/Chapter II/chapter_ii_010.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_010.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_010.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/Chapter II/chapter_ii_021.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_021.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_021.placeholder.jpg"
+    },
+    {
+      "width": 2700,
       "height": 5760,
-      "path": "./photos/II/ii_017.jpg",
-      "compressed_path": "./photos/II/ii_017.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_009.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_009.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/II/ii_017.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_009.placeholder.jpg"
     },
     {
       "width": 5760,
       "height": 3840,
-      "path": "./photos/II/ii_016.jpg",
-      "compressed_path": "./photos/II/ii_016.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_008.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_008.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/II/ii_016.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_008.placeholder.jpg"
     },
     {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/II/ii_002.jpg",
-      "compressed_path": "./photos/II/ii_002.min.jpg",
+      "width": 1080,
+      "height": 720,
+      "path": "./photos/Chapter II/chapter_ii_020.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_020.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/II/ii_002.placeholder.jpg"
-    },
-    {
-      "width": 5658,
-      "height": 3772,
-      "path": "./photos/II/ii_014.jpg",
-      "compressed_path": "./photos/II/ii_014.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_014.placeholder.jpg"
-    },
-    {
-      "width": 4899,
-      "height": 8000,
-      "path": "./photos/II/ii_001.jpg",
-      "compressed_path": "./photos/II/ii_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_001.placeholder.jpg"
-    },
-    {
-      "width": 5600,
-      "height": 3733,
-      "path": "./photos/II/ii_015.jpg",
-      "compressed_path": "./photos/II/ii_015.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_015.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3545,
-      "path": "./photos/II/ii_011.jpg",
-      "compressed_path": "./photos/II/ii_011.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_011.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/II/ii_005.jpg",
-      "compressed_path": "./photos/II/ii_005.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_005.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/II/ii_004.jpg",
-      "compressed_path": "./photos/II/ii_004.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_004.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/II/ii_010.jpg",
-      "compressed_path": "./photos/II/ii_010.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_010.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/II/ii_006.jpg",
-      "compressed_path": "./photos/II/ii_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_006.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/II/ii_012.jpg",
-      "compressed_path": "./photos/II/ii_012.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_012.placeholder.jpg"
-    },
-    {
-      "width": 8000,
-      "height": 4000,
-      "path": "./photos/II/ii_013.jpg",
-      "compressed_path": "./photos/II/ii_013.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_013.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/II/ii_007.jpg",
-      "compressed_path": "./photos/II/ii_007.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_007.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/II/ii_009.jpg",
-      "compressed_path": "./photos/II/ii_009.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_009.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/II/ii_008.jpg",
-      "compressed_path": "./photos/II/ii_008.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_008.placeholder.jpg"
-    },
-    {
-      "width": 1616,
-      "height": 3232,
-      "path": "./photos/II/ii_018.jpg",
-      "compressed_path": "./photos/II/ii_018.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_018.placeholder.jpg"
-    },
-    {
-      "width": 5333,
-      "height": 8000,
-      "path": "./photos/II/ii_019.jpg",
-      "compressed_path": "./photos/II/ii_019.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/II/ii_019.placeholder.jpg"
-    }
-  ],
-  "III": [
-    {
-      "width": 3168,
-      "height": 3168,
-      "path": "./photos/III/iii_016.jpg",
-      "compressed_path": "./photos/III/iii_016.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_016.placeholder.jpg"
-    },
-    {
-      "width": 5737,
-      "height": 3828,
-      "path": "./photos/III/iii_002.jpg",
-      "compressed_path": "./photos/III/iii_002.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_002.placeholder.jpg"
-    },
-    {
-      "width": 3357,
-      "height": 5035,
-      "path": "./photos/III/iii_003.jpg",
-      "compressed_path": "./photos/III/iii_003.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_003.placeholder.jpg"
-    },
-    {
-      "width": 3840,
-      "height": 5760,
-      "path": "./photos/III/iii_017.jpg",
-      "compressed_path": "./photos/III/iii_017.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_017.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/III/iii_001.jpg",
-      "compressed_path": "./photos/III/iii_001.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_001.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/III/iii_015.jpg",
-      "compressed_path": "./photos/III/iii_015.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_015.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_020.placeholder.jpg"
     },
     {
       "width": 3711,
       "height": 5566,
-      "path": "./photos/III/iii_014.jpg",
-      "compressed_path": "./photos/III/iii_014.min.jpg",
+      "path": "./photos/Chapter II/chapter_ii_022.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_022.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_014.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_022.placeholder.jpg"
     },
     {
-      "width": 3808,
-      "height": 5712,
-      "path": "./photos/III/iii_004.jpg",
-      "compressed_path": "./photos/III/iii_004.min.jpg",
+      "width": 2790,
+      "height": 1860,
+      "path": "./photos/Chapter II/chapter_ii_004.jpeg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_004.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_004.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter II/chapter_ii_004.placeholder.jpeg"
     },
+    {
+      "width": 1776,
+      "height": 1184,
+      "path": "./photos/Chapter II/chapter_ii_023.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_023.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_023.placeholder.jpg"
+    },
+    {
+      "width": 5762,
+      "height": 2341,
+      "path": "./photos/Chapter II/chapter_ii_027.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_027.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_027.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 5200,
+      "path": "./photos/Chapter II/chapter_ii_029.jpeg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_029.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_029.placeholder.jpeg"
+    },
+    {
+      "width": 3168,
+      "height": 3168,
+      "path": "./photos/Chapter II/chapter_ii_026.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_026.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_026.placeholder.jpg"
+    },
+    {
+      "width": 1776,
+      "height": 772,
+      "path": "./photos/Chapter II/chapter_ii_018.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_018.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_018.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/Chapter II/chapter_ii_024.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_024.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_024.placeholder.jpg"
+    },
+    {
+      "width": 4559,
+      "height": 1758,
+      "path": "./photos/Chapter II/chapter_ii_025.jpeg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_025.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_025.placeholder.jpeg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/Chapter II/chapter_ii_019.jpg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_019.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_019.placeholder.jpg"
+    },
+    {
+      "width": 6035,
+      "height": 4023,
+      "path": "./photos/Chapter II/chapter_ii_014.jpeg",
+      "compressed_path": "./photos/Chapter II/chapter_ii_014.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter II/chapter_ii_014.placeholder.jpeg"
+    }
+  ],
+  "Chapter I": [
     {
       "width": 3178,
       "height": 4767,
-      "path": "./photos/III/iii_010.jpg",
-      "compressed_path": "./photos/III/iii_010.min.jpg",
+      "path": "./photos/Chapter I/chapter_i_012.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_012.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_010.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_012.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/Chapter I/chapter_i_006.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_006.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_006.placeholder.jpg"
+    },
+    {
+      "width": 5616,
+      "height": 3744,
+      "path": "./photos/Chapter I/chapter_i_007.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_007.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_007.placeholder.jpg"
     },
     {
       "width": 3633,
       "height": 5450,
-      "path": "./photos/III/iii_011.jpg",
-      "compressed_path": "./photos/III/iii_011.min.jpg",
+      "path": "./photos/Chapter I/chapter_i_013.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_013.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_011.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_013.placeholder.jpg"
     },
     {
       "width": 5760,
       "height": 3240,
-      "path": "./photos/III/iii_005.jpg",
-      "compressed_path": "./photos/III/iii_005.min.jpg",
+      "path": "./photos/Chapter I/chapter_i_005.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_005.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_005.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_005.placeholder.jpg"
     },
     {
-      "width": 3239,
-      "height": 4859,
-      "path": "./photos/III/iii_013.jpg",
-      "compressed_path": "./photos/III/iii_013.min.jpg",
+      "width": 2711,
+      "height": 2597,
+      "path": "./photos/Chapter I/chapter_i_011.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_011.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_013.placeholder.jpg"
-    },
-    {
-      "width": 5491,
-      "height": 3661,
-      "path": "./photos/III/iii_007.jpg",
-      "compressed_path": "./photos/III/iii_007.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_007.placeholder.jpg"
-    },
-    {
-      "width": 5616,
-      "height": 3744,
-      "path": "./photos/III/iii_006.jpg",
-      "compressed_path": "./photos/III/iii_006.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_006.placeholder.jpg"
-    },
-    {
-      "width": 5616,
-      "height": 3744,
-      "path": "./photos/III/iii_012.jpg",
-      "compressed_path": "./photos/III/iii_012.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_012.placeholder.jpg"
-    },
-    {
-      "width": 5561,
-      "height": 4221,
-      "path": "./photos/III/iii_023.jpg",
-      "compressed_path": "./photos/III/iii_023.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_023.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/III/iii_022.jpg",
-      "compressed_path": "./photos/III/iii_022.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_022.placeholder.jpg"
-    },
-    {
-      "width": 3465,
-      "height": 2310,
-      "path": "./photos/III/iii_008.jpg",
-      "compressed_path": "./photos/III/iii_008.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_008.placeholder.jpg"
-    },
-    {
-      "width": 5760,
-      "height": 3840,
-      "path": "./photos/III/iii_020.jpg",
-      "compressed_path": "./photos/III/iii_020.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_020.placeholder.jpg"
-    },
-    {
-      "width": 5601,
-      "height": 3734,
-      "path": "./photos/III/iii_021.jpg",
-      "compressed_path": "./photos/III/iii_021.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./photos/III/iii_021.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_011.placeholder.jpg"
     },
     {
       "width": 3744,
       "height": 5616,
-      "path": "./photos/III/iii_009.jpg",
-      "compressed_path": "./photos/III/iii_009.min.jpg",
+      "path": "./photos/Chapter I/chapter_i_010.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_010.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_009.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_010.placeholder.jpg"
     },
     {
-      "width": 5688,
-      "height": 3200,
-      "path": "./photos/III/iii_019.jpg",
-      "compressed_path": "./photos/III/iii_019.min.jpg",
+      "width": 3808,
+      "height": 5712,
+      "path": "./photos/Chapter I/chapter_i_004.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_004.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_019.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_004.placeholder.jpg"
+    },
+    {
+      "width": 5561,
+      "height": 4221,
+      "path": "./photos/Chapter I/chapter_i_028.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_028.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_028.placeholder.jpg"
+    },
+    {
+      "width": 5616,
+      "height": 3744,
+      "path": "./photos/Chapter I/chapter_i_014.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_014.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_014.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./photos/Chapter I/chapter_i_015.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_015.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_015.placeholder.jpg"
     },
     {
       "width": 5760,
       "height": 3840,
-      "path": "./photos/III/iii_018.jpg",
-      "compressed_path": "./photos/III/iii_018.min.jpg",
+      "path": "./photos/Chapter I/chapter_i_001.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/III/iii_018.placeholder.jpg"
+      "placeholder_path": "./photos/Chapter I/chapter_i_001.placeholder.jpg"
+    },
+    {
+      "width": 1666,
+      "height": 901,
+      "path": "./photos/Chapter I/chapter_i_029.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_029.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_029.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 2271,
+      "path": "./photos/Chapter I/chapter_i_017.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_017.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_017.placeholder.jpg"
+    },
+    {
+      "width": 4899,
+      "height": 8000,
+      "path": "./photos/Chapter I/chapter_i_003.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_003.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_003.placeholder.jpg"
+    },
+    {
+      "width": 5737,
+      "height": 3828,
+      "path": "./photos/Chapter I/chapter_i_002.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_002.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_002.placeholder.jpg"
+    },
+    {
+      "width": 3239,
+      "height": 4859,
+      "path": "./photos/Chapter I/chapter_i_016.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_016.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_016.placeholder.jpg"
+    },
+    {
+      "width": 5333,
+      "height": 8000,
+      "path": "./photos/Chapter I/chapter_i_027.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_027.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_027.placeholder.jpg"
+    },
+    {
+      "width": 1616,
+      "height": 3232,
+      "path": "./photos/Chapter I/chapter_i_026.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_026.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_026.placeholder.jpg"
+    },
+    {
+      "width": 5601,
+      "height": 3734,
+      "path": "./photos/Chapter I/chapter_i_024.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_024.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_024.placeholder.jpg"
+    },
+    {
+      "width": 8000,
+      "height": 4000,
+      "path": "./photos/Chapter I/chapter_i_018.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_018.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_018.placeholder.jpg"
+    },
+    {
+      "width": 5658,
+      "height": 3772,
+      "path": "./photos/Chapter I/chapter_i_019.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_019.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_019.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/Chapter I/chapter_i_025.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_025.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_025.placeholder.jpg"
+    },
+    {
+      "width": 3840,
+      "height": 5760,
+      "path": "./photos/Chapter I/chapter_i_009.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_009.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_009.placeholder.jpg"
+    },
+    {
+      "width": 5760,
+      "height": 3840,
+      "path": "./photos/Chapter I/chapter_i_021.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_021.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_021.placeholder.jpg"
+    },
+    {
+      "width": 5600,
+      "height": 3733,
+      "path": "./photos/Chapter I/chapter_i_020.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_020.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_020.placeholder.jpg"
+    },
+    {
+      "width": 5491,
+      "height": 3661,
+      "path": "./photos/Chapter I/chapter_i_008.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_008.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_008.placeholder.jpg"
+    },
+    {
+      "width": 5688,
+      "height": 3200,
+      "path": "./photos/Chapter I/chapter_i_022.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_022.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_022.placeholder.jpg"
+    },
+    {
+      "width": 5461,
+      "height": 2121,
+      "path": "./photos/Chapter I/chapter_i_023.jpg",
+      "compressed_path": "./photos/Chapter I/chapter_i_023.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./photos/Chapter I/chapter_i_023.placeholder.jpg"
     }
   ]
 }
