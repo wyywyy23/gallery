@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Helvetica', 'Verdana', sans-serif;
+  font-family: 'Fira Sans', 'Lato', 'Helvetica', 'Verdana', sans-serif;
 }
 
 #container {
@@ -13,7 +13,7 @@ body {
   margin-bottom: 32px;
 
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
