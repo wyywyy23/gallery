@@ -7,9 +7,9 @@ import sys
 import json
 import re
 
-PATH = os.path.dirname(__file__) + "/../"
+PATH = os.path.abspath(os.path.dirname(__file__) + "/../")
 RELATIVE_PATH = "photos"
-PHOTO_PATH = PATH + RELATIVE_PATH
+PHOTO_PATH = PATH + "/" + RELATIVE_PATH
 
 
 def is_original(path):
@@ -74,7 +74,7 @@ def get_images(path):
 
 
 def write_config(config):
-    with open(PATH + "config.json", "w") as f:
+    with open(PATH + "/config.json", "w") as f:
         f.write(json.dumps(config, indent=2, separators=(",", ": ")))
 
 
@@ -97,7 +97,7 @@ def run():
         )
 
     print("Done processing all {length} albums".format(length=len(dirs)))
-    print("Writing files to {path} now...".format(path=PATH + "config.json"))
+    print("Writing files to {path} now...".format(path=PATH + "/config.json"))
     write_config(config)
     print(
         """Done writing! You may now safely close this window :)
