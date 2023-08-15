@@ -81,4 +81,4 @@ fi
 # fi  
 
 python $SCRIPT_PATH/tools/setup.py
-python $SCRIPT_PATH/tools/sort.py
+# python $SCRIPT_PATH/tools/sort.py
