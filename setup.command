@@ -8,6 +8,7 @@ if [[ "$OSTYPE" == "darwin"* && -x "$(command -v mogrify)" ]]; then
   rm -rf $SCRIPT_PATH/photos/**/*.min.*
   rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
   python $SCRIPT_PATH/tools/rename.py
+  python $SCRIPT_PATH/tools/watermark.py
 
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
@@ -32,6 +33,7 @@ elif [[ "$OSTYPE" == "darwin"* && -x "$(command -v sips)" ]]; then
   rm -rf $SCRIPT_PATH/photos/**/*.min.*
   rm -rf $SCRIPT_PATH/photos/**/*.placeholder.*
   python $SCRIPT_PATH/tools/rename.py
+    python $SCRIPT_PATH/tools/watermark.py
 
   # low res version of image
   python $SCRIPT_PATH/tools/duplicate.py min
