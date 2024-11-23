@@ -18,7 +18,7 @@ def is_original(path):
 
 
 def get_path(path, ext):
-    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + ".\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + r".\1", path)
 
 
 def main():

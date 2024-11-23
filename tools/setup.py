@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
-from PIL import Image, ImageOps
-import struct
-import os
-import sys
 import json
+import os
 import re
+import struct
+import sys
+
+from PIL import Image, ImageOps
 
 PATH = os.path.abspath(os.path.dirname(__file__) + "/../")
 RELATIVE_PATH = "photos"
@@ -42,7 +43,7 @@ def get_min_path(path):
 
 
 def get_path(path, ext):
-    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + ".\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + r".\1", path)
 
 
 def get_images(path):

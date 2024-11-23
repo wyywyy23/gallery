@@ -11,15 +11,15 @@ def is_image_path(path):
 
 
 def get_min_path(path):
-    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", ".min.\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", r".min.\1", path)
 
 
 def get_placeholder_path(path):
-    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", ".placeholder.\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", r".placeholder.\1", path)
 
 
 def get_path(path, ext):
-    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + ".\g<1>", path)
+    return re.sub(r"\.(png|jpe?g|PNG|JPE?G)$", "." + ext + r".\1", path)
 
 
 def is_original(path):
