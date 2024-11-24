@@ -1,3 +1,4 @@
+import math
 import os
 import re
 
@@ -36,13 +37,28 @@ def main():
                         watermark = watermark.resize(
                             (int(width_wm / ratio), int(height_wm / ratio))
                         )
+                        region = im.crop(
+                            (
+                                int(width / 2 - watermark.width / 2),
+                                int(watermark.height / 2),
+                                int(width / 2 - watermark.width / 2 + watermark.width),
+                                int(watermark.height / 2 + watermark.height),
+                            )
+                        )
+                        avg_intensity = sum(region.convert("L").getdata()) / (
+                            watermark.width * watermark.height
+                        )
+                        wm_opacity = math.sqrt(avg_intensity / 255)
+                        print(
+                            f"Average intensity: {avg_intensity}, watermark opacity: {wm_opacity}"
+                        )
                         watermark = watermark.convert("RGBA")
                         watermark_with_transparency = Image.new("RGBA", watermark.size)
                         for x in range(watermark.width):
                             for y in range(watermark.height):
                                 r, g, b, a = watermark.getpixel((x, y))
                                 watermark_with_transparency.putpixel(
-                                    (x, y), (r, g, b, int(a * 0.6))
+                                    (x, y), (r, g, b, int(a * wm_opacity))
                                 )
                         im = im.convert("RGBA")
                         im.paste(
