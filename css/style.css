@@ -17,7 +17,7 @@ body {
   margin-bottom: 32px;
   font-size: 16px;
   font-weight: 400;
-  color: #666;
+  color: #ccc;
 }
 
 section {
@@ -28,7 +28,7 @@ section img {
   vertical-align: middle;
   opacity: 0;
   transition: 0.5s opacity;
-  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(0,0,0,.5);
   box-sizing: border-box;
   filter: blur(2px);
 }
@@ -44,6 +44,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  color: #f5f5f5
 }
 
 .footer {
