@@ -3,7 +3,6 @@
 import json
 import os
 import re
-import struct
 import sys
 
 from PIL import Image, ImageOps
@@ -26,7 +25,7 @@ def is_min_path(path):
 
 
 def get_directories():
-    items = os.listdir(PHOTO_PATH)
+    items = sorted(os.listdir(PHOTO_PATH))
     return list(filter(lambda x: os.path.isdir(PHOTO_PATH + "/" + x), items))
 
 
@@ -47,7 +46,7 @@ def get_path(path, ext):
 
 
 def get_images(path):
-    items = os.listdir(PHOTO_PATH + "/" + path)
+    items = sorted(os.listdir(PHOTO_PATH + "/" + path))
     filtered_items = list(filter(is_original, items))
 
     result = []
@@ -101,10 +100,7 @@ def run():
     print("Writing files to {path} now...".format(path=PATH + "/config.json"))
     write_config(config)
     print(
-        """Done writing! You may now safely close this window :)
-
-Thank you for using gallery! Share your gallery on Github!
-https://github.com/andyzg/gallery/issues/1"""
+        """Done writing config.json."""
     )
     return 0
 
