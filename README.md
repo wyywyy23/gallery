@@ -1,5 +1,9 @@
 # Gallery Workflow
 
+Forked from [andyzg/gallery](https://github.com/andyzg/gallery).
+
+![Gallery webpage preview](assets/preview.png)
+
 This is a static photo gallery. The site reads `config.json`, which points each
 photo to three files:
 
