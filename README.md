@@ -18,6 +18,20 @@ Lanczos downsampling with settings closely matching the former ImageMagick
 `-unsharp 0.5x0.5+0.5+0.008` step. Originals and loading placeholders are not
 sharpened.
 
+## Photo Order
+
+Set `photo_sort` in `_config.yml` to choose how each album is ordered:
+
+- `colorspace` follows a perceptual blue/purple-to-orange/red path in visual
+  reading order (left-to-right, then top-to-bottom).
+- `shuffle` randomizes the order on every page load.
+- `filename` keeps the order from `config.json`.
+
+The colorspace score is calculated from each web-display image when
+`config.json` is rebuilt, so visitors do not pay the cost of image analysis.
+The old `shuffle` boolean remains as a fallback for configs that do not define
+`photo_sort`.
+
 Prerequisite:
 
 ```bash

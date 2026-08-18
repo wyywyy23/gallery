@@ -7,7 +7,10 @@ class Config {
     this.data = config;
     this.maxHeight = opts.maxHeight || 400;
     this.spacing = opts.spacing || 10;
-    this.shuffle = opts.shuffle || false;
+    this.sort = (opts.sort || (opts.shuffle ? 'shuffle' : 'filename')).toLowerCase();
+    if (['filename', 'shuffle', 'colorspace'].indexOf(this.sort) === -1) {
+      this.sort = 'filename';
+    }
     this.columns = opts.columns || 3;
   };
 
@@ -30,8 +33,10 @@ class Renderer {
 
   getPhotos(config, photos) {
     var photos = photos.map((p) => { return new Photo(p); });
-    if (config.shuffle) {
+    if (config.sort === 'shuffle') {
       shuffle(photos);
+    } else if (config.sort === 'colorspace') {
+      photos.sort(compareColorspace);
     }
     return photos
   }
@@ -191,7 +196,7 @@ class SquareRenderer extends Renderer {
           break;
         }
 
-        rowPhotos.push(photos.pop());
+        rowPhotos.push(photos.shift());
       }
       sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
     }
@@ -262,9 +267,6 @@ class HorizontalRenderer extends Renderer {
    * Creates an album section
    */
   createSection(config, section, photos) {
-    if (config.shuffle) {
-      shuffle(photos);
-    }
     var sectionElem = this.createHeader(section);
 
     while (photos.length > 0) {
@@ -272,7 +274,7 @@ class HorizontalRenderer extends Renderer {
       var rowPhotos = [];
 
       while (true) {
-        var photo = photos.pop();
+        var photo = photos.shift();
         maxWidth += photo.width(config.maxHeight) + config.spacing;
         rowPhotos.push(photo);
         if (maxWidth - config.spacing > this._currentWidth) {
@@ -344,6 +346,7 @@ class Photo {
     this._is_compressed = p.compressed;
     this.placeholder_path = p.placeholder_path;
     this.compressed_path = p.compressed_path;
+    this.colorSort = typeof p.color_sort === 'number' ? p.color_sort : 0;
 
     this.aspectRatio = this._width / parseFloat(this._height);
   };
@@ -391,6 +394,17 @@ function shuffle(a) {
     let j = Math.floor(Math.random() * i);
     [a[i - 1], a[j]] = [a[j], a[i - 1]];
   }
+}
+
+/**
+ * Orders photos along the perceptual cool-to-warm axis calculated at build
+ * time. Path is the deterministic fallback for older metadata and exact ties.
+ */
+function compareColorspace(a, b) {
+  if (a.colorSort !== b.colorSort) {
+    return a.colorSort - b.colorSort;
+  }
+  return a.path.localeCompare(b.path);
 }
 
 /**

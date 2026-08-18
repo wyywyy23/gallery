@@ -45,7 +45,8 @@
 
     var configuration = {
       spacing: {{ site.spacing }},
-      shuffle: {{ site.shuffle }},
+      sort: "{{ site.photo_sort | default: 'filename' }}",
+      shuffle: {{ site.shuffle | default: false }},
       columns: {{ site.columns }},
       maxHeight: {{ site.max_height }}
     };

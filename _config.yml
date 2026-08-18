@@ -18,8 +18,12 @@ layout_style: ROWS
 # Integer: Spacing between each photo
 spacing: 6
 
-# Boolean(true|false): Shuffle the photos in the album
-shuffle: true
+# String(filename|shuffle|colorspace): Order photos in each album. Colorspace
+# follows a perceptual cool-to-warm path from blue/purple to orange/red.
+photo_sort: colorspace
+
+# Deprecated fallback for older configs without `photo_sort`.
+shuffle: false
 
 # Integer: Number of columns for square or columns
 columns: 4

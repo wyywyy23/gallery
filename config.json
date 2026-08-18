@@ -6,7 +6,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_001.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_001.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_001.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_001.placeholder.jpg",
+      "color_sort": 0.056053
     },
     {
       "width": 3711,
@@ -14,7 +15,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_002.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_002.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_002.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_002.placeholder.jpg",
+      "color_sort": -0.037117
     },
     {
       "width": 1080,
@@ -22,7 +24,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_003.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_003.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_003.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_003.placeholder.jpg",
+      "color_sort": 0.075884
     },
     {
       "width": 5616,
@@ -30,7 +33,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_004.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_004.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_004.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_004.placeholder.jpg",
+      "color_sort": 0.007956
     },
     {
       "width": 3840,
@@ -38,7 +42,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_005.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_005.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_005.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_005.placeholder.jpg",
+      "color_sort": 0.024085
     },
     {
       "width": 3733,
@@ -46,7 +51,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_006.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_006.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_006.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_006.placeholder.jpg",
+      "color_sort": -0.025869
     },
     {
       "width": 1776,
@@ -54,7 +60,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_007.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_007.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_007.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_007.placeholder.jpg",
+      "color_sort": 0.049948
     },
     {
       "width": 5600,
@@ -62,7 +69,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_008.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_008.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_008.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_008.placeholder.jpg",
+      "color_sort": 0.039349
     },
     {
       "width": 1776,
@@ -70,7 +78,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_009.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_009.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_009.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_009.placeholder.jpg",
+      "color_sort": 0.046342
     },
     {
       "width": 6035,
@@ -78,7 +87,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_010.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_010.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_010.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_010.placeholder.jpeg",
+      "color_sort": 0.010639
     },
     {
       "width": 5601,
@@ -86,7 +96,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_011.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_011.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_011.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_011.placeholder.jpg",
+      "color_sort": 0.025454
     },
     {
       "width": 5760,
@@ -94,7 +105,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_012.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_012.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_012.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_012.placeholder.jpg",
+      "color_sort": 0.000722
     },
     {
       "width": 6226,
@@ -102,7 +114,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_013.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_013.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_013.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_013.placeholder.jpeg",
+      "color_sort": 0.041205
     },
     {
       "width": 4160,
@@ -110,7 +123,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_014.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_014.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_014.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_014.placeholder.jpeg",
+      "color_sort": 0.071167
     },
     {
       "width": 2790,
@@ -118,7 +132,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_015.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_015.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_015.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_015.placeholder.jpeg",
+      "color_sort": 0.061505
     },
     {
       "width": 5760,
@@ -126,7 +141,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_016.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_016.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_016.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_016.placeholder.jpg",
+      "color_sort": 0.023027
     },
     {
       "width": 4899,
@@ -134,7 +150,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_017.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_017.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_017.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_017.placeholder.jpg",
+      "color_sort": 0.061928
     },
     {
       "width": 5737,
@@ -142,7 +159,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_018.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_018.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_018.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_018.placeholder.jpg",
+      "color_sort": 0.003089
     },
     {
       "width": 6240,
@@ -150,7 +168,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_019.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_019.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_019.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_019.placeholder.jpg",
+      "color_sort": -0.014109
     },
     {
       "width": 5762,
@@ -158,7 +177,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_020.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_020.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_020.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_020.placeholder.jpg",
+      "color_sort": 0.004917
     },
     {
       "width": 5333,
@@ -166,7 +186,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_021.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_021.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_021.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_021.placeholder.jpg",
+      "color_sort": 0.069128
     },
     {
       "width": 5616,
@@ -174,7 +195,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_022.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_022.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_022.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_022.placeholder.jpg",
+      "color_sort": -0.004167
     },
     {
       "width": 5760,
@@ -182,7 +204,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_023.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_023.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_023.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_023.placeholder.jpg",
+      "color_sort": 0.145754
     },
     {
       "width": 5760,
@@ -190,7 +213,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_024.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_024.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_024.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_024.placeholder.jpg",
+      "color_sort": -0.03199
     },
     {
       "width": 5760,
@@ -198,7 +222,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_025.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_025.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_025.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_025.placeholder.jpg",
+      "color_sort": -0.047134
     },
     {
       "width": 6173,
@@ -206,7 +231,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_026.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_026.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_026.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_026.placeholder.jpg",
+      "color_sort": -0.01242
     },
     {
       "width": 3840,
@@ -214,7 +240,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_027.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_027.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_027.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_027.placeholder.jpg",
+      "color_sort": 0.04316
     },
     {
       "width": 3840,
@@ -222,7 +249,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_028.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_028.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_028.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_028.placeholder.jpg",
+      "color_sort": 0.097628
     },
     {
       "width": 4160,
@@ -230,7 +258,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_029.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_029.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_029.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_029.placeholder.jpg",
+      "color_sort": -0.000596
     },
     {
       "width": 3744,
@@ -238,7 +267,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_030.jpg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_030.min.jpg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_030.placeholder.jpg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_030.placeholder.jpg",
+      "color_sort": -0.009054
     },
     {
       "width": 3170,
@@ -246,7 +276,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_031.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_031.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_031.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_031.placeholder.jpeg",
+      "color_sort": 0.0199
     },
     {
       "width": 5931,
@@ -254,7 +285,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_032.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_032.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_032.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_032.placeholder.jpeg",
+      "color_sort": 0.020349
     },
     {
       "width": 6240,
@@ -262,7 +294,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_033.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_033.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_033.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_033.placeholder.jpeg",
+      "color_sort": -0.082932
     },
     {
       "width": 3202,
@@ -270,7 +303,8 @@
       "path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_034.jpeg",
       "compressed_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_034.min.jpeg",
       "compressed": true,
-      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_034.placeholder.jpeg"
+      "placeholder_path": "./photos/Yuyang Wang's Gallery/yuyang_wang's_gallery_034.placeholder.jpeg",
+      "color_sort": 0.051545
     }
   ]
 }
