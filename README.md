@@ -13,7 +13,10 @@ photo to three files:
 
 The normal workflow is to add originals with `tools/add_photo.py`. It assigns
 the next number, optionally applies a watermark, creates the generated versions,
-and refreshes `config.json`.
+and refreshes `config.json`. Web-display `.min` images are sharpened after
+Lanczos downsampling with settings closely matching the former ImageMagick
+`-unsharp 0.5x0.5+0.5+0.008` step. Originals and loading placeholders are not
+sharpened.
 
 Prerequisite:
 
@@ -77,6 +80,14 @@ That root command is now only a compatibility wrapper for:
 
 ```bash
 python3 tools/rebuild_gallery.py
+```
+
+Pass original paths to rebuild only selected photos:
+
+```bash
+python3 tools/rebuild_gallery.py --skip-config \
+  "photos/My Gallery/my_gallery_031.jpeg" \
+  "photos/My Gallery/my_gallery_032.jpeg"
 ```
 
 It does not rename originals and does not apply watermarks. Watermarking happens

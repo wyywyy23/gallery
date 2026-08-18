@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 try:
-    from PIL import Image, ImageOps
+    from PIL import Image, ImageFilter, ImageOps
 except ImportError:
     print(
         "error: Pillow is required. Install it with: python3 -m pip install Pillow",
@@ -26,6 +26,12 @@ DEFAULT_WATERMARK_PATH = ROOT / "watermark.png"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 GENERATED_MARKERS = (".min.", ".placeholder.")
 NUMBERED_RE = re.compile(r"^(?P<prefix>.+)_(?P<number>\d+)\.(?:jpe?g|png)$", re.I)
+
+# Closest 8-bit Pillow equivalent of the former ImageMagick setting:
+# -unsharp 0.5x0.5+0.5+0.008
+WEB_SHARPEN_RADIUS = 0.5
+WEB_SHARPEN_PERCENT = 50
+WEB_SHARPEN_THRESHOLD = 2
 
 try:
     RESAMPLE = Image.Resampling.LANCZOS
@@ -269,6 +275,17 @@ def resized_image(image, max_size):
     return result
 
 
+def web_display_image(image, max_size):
+    resized = resized_image(image, max_size)
+    return resized.filter(
+        ImageFilter.UnsharpMask(
+            radius=WEB_SHARPEN_RADIUS,
+            percent=WEB_SHARPEN_PERCENT,
+            threshold=WEB_SHARPEN_THRESHOLD,
+        )
+    )
+
+
 def save_image(image, path, quality):
     path.parent.mkdir(parents=True, exist_ok=True)
     suffix = path.suffix.lower()
@@ -295,7 +312,7 @@ def process_job(job, args):
         image = apply_watermark(image, args.watermark)
 
     save_image(image, job.target, args.original_quality)
-    save_image(resized_image(image, args.min_size), job.min_path, args.min_quality)
+    save_image(web_display_image(image, args.min_size), job.min_path, args.min_quality)
     save_image(
         resized_image(image, args.placeholder_size),
         job.placeholder_path,

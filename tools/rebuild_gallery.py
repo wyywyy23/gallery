@@ -11,10 +11,13 @@ from add_photo import (
     derived_path,
     is_generated_path,
     is_image_path,
+    is_inside,
     is_original_image,
     load_image,
     resized_image,
+    resolve_path,
     save_image,
+    web_display_image,
 )
 
 
@@ -29,6 +32,34 @@ def iter_originals():
         for path in sorted(album_dir.iterdir()):
             if is_original_image(path):
                 yield path
+
+
+def selected_originals(raw_sources):
+    if not raw_sources:
+        return list(iter_originals())
+
+    originals = []
+    seen = set()
+    for raw_source in raw_sources:
+        source = resolve_path(raw_source)
+        if source.is_dir():
+            candidates = sorted(path for path in source.iterdir() if is_original_image(path))
+            if not candidates:
+                raise AddPhotoError(f"No original images found in directory: {source}")
+        else:
+            candidates = [source]
+
+        for candidate in candidates:
+            if not is_inside(candidate, PHOTOS_DIR):
+                raise AddPhotoError(f"Original must be inside {PHOTOS_DIR}: {candidate}")
+            if not is_original_image(candidate):
+                raise AddPhotoError(f"Not a gallery original image: {candidate}")
+            resolved = candidate.resolve()
+            if resolved not in seen:
+                originals.append(resolved)
+                seen.add(resolved)
+
+    return originals
 
 
 def iter_generated_files():
@@ -52,7 +83,7 @@ def rebuild_sidecars(original, args):
     min_path = derived_path(original, "min")
     placeholder_path = derived_path(original, "placeholder")
 
-    save_image(resized_image(image, args.min_size), min_path, args.min_quality)
+    save_image(web_display_image(image, args.min_size), min_path, args.min_quality)
     save_image(
         resized_image(image, args.placeholder_size),
         placeholder_path,
@@ -68,6 +99,11 @@ def rebuild_config():
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Rebuild gallery sidecar images and config without renaming or watermarking originals."
+    )
+    parser.add_argument(
+        "photos",
+        nargs="*",
+        help="Optional gallery originals or album directories to rebuild. Defaults to every original.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Show planned work without writing files.")
     parser.add_argument(
@@ -106,7 +142,7 @@ def validate_args(args):
 
 def run(args):
     validate_args(args)
-    originals = list(iter_originals())
+    originals = selected_originals(args.photos)
 
     print(f"Found {len(originals)} original image(s).")
     for original in originals:
