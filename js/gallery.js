@@ -397,8 +397,8 @@ function shuffle(a) {
 }
 
 /**
- * Orders photos along the perceptual cool-to-warm axis calculated at build
- * time. Path is the deterministic fallback for older metadata and exact ties.
+ * Orders photos by the OKLCh hue/lightness path calculated at build time. Path
+ * is the deterministic fallback for older metadata and exact ties.
  */
 function compareColorspace(a, b) {
   if (a.colorSort !== b.colorSort) {

@@ -22,13 +22,17 @@ sharpened.
 
 Set `photo_sort` in `_config.yml` to choose how each album is ordered:
 
-- `colorspace` follows a perceptual blue/purple-to-orange/red path in visual
-  reading order (left-to-right, then top-to-bottom).
+- `colorspace` follows an OKLCh hue path from purple through blue, cyan, green,
+  yellow, orange, and red in visual reading order (left-to-right, then
+  top-to-bottom). Within each nearby hue family, it chooses the path that first
+  minimizes the largest adjacent lightness jump, then minimizes the remaining
+  squared lightness changes. Hue families never cross one another.
 - `shuffle` randomizes the order on every page load.
 - `filename` keeps the order from `config.json`.
 
-The colorspace score is calculated from each web-display image when
-`config.json` is rebuilt, so visitors do not pay the cost of image analysis.
+The colorspace coordinates and final rank are calculated from each web-display
+image when `config.json` is rebuilt, so visitors do not pay the cost of image
+analysis.
 The old `shuffle` boolean remains as a fallback for configs that do not define
 `photo_sort`.
 

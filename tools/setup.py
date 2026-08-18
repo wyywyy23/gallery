@@ -18,10 +18,12 @@ try:
 except AttributeError:
     RESAMPLE = Image.LANCZOS
 
-# Unit-vector approximation of the blue/purple -> orange/red opponent axis in
-# OKLab's a/b plane. Higher scores look perceptually warmer.
-COLOR_AXIS_A = 0.47
-COLOR_AXIS_B = 0.88
+# OKLCh hue is unwrapped at magenta so the ordered path runs through these
+# perceptual color families: purple, blue, cyan, green, yellow, orange, red.
+HUE_PATH_START = 330.0
+HUE_STAGE_BOUNDARIES = (0.0, 60.0, 120.0, 175.0, 230.0, 275.0, 315.0, 360.0)
+HUE_WEIGHT_POWER = 2
+MAX_EXACT_STAGE_SIZE = 12
 
 
 def is_original(path):
@@ -81,35 +83,227 @@ def rgb_to_oklab(pixel):
     )
 
 
-def color_sort_key(image):
-    """Return a perceptual blue/purple-to-orange/red score for an image."""
+def hue_path(hue):
+    return (HUE_PATH_START - hue) % 360.0
+
+
+def color_coordinates(image):
+    """Return representative OKLCh coordinates for an image."""
     sample = ImageOps.exif_transpose(image).convert("RGB")
     sample.thumbnail((COLOR_SAMPLE_SIZE, COLOR_SAMPLE_SIZE), RESAMPLE)
 
-    weighted_a = 0.0
-    weighted_b = 0.0
-    total_weight = 0.0
+    hue_samples = []
+    lightness_total = 0.0
+    chroma_total = 0.0
     for pixel in sample.getdata():
         lightness, axis_a, axis_b = rgb_to_oklab(pixel)
         chroma = math.hypot(axis_a, axis_b)
+        hue = (math.degrees(math.atan2(axis_b, axis_a)) + 360.0) % 360.0
 
-        # Saturated midtones carry more of a photo's perceived color than
-        # neutral highlights or crushed shadows, while every pixel still gets
-        # some weight so monochrome images remain stable.
-        chroma_weight = 0.05 + min((chroma / 0.12) ** 2, 4.0)
+        # A chroma-squared weight makes small but visually strong color regions
+        # count without letting neutral pixels make the hue unstable. The
+        # weighted median avoids complementary colors cancelling into a false
+        # intermediate hue.
         tone_weight = max(0.2, 1.0 - abs(lightness - 0.55) * 1.4)
-        weight = chroma_weight * tone_weight
+        weight = (chroma ** HUE_WEIGHT_POWER) * tone_weight
+        hue_samples.append((hue_path(hue), weight))
+        lightness_total += lightness
+        chroma_total += chroma
 
-        weighted_a += axis_a * weight
-        weighted_b += axis_b * weight
-        total_weight += weight
+    pixel_count = len(hue_samples)
+    if pixel_count == 0:
+        return {"lightness": 0.0, "chroma": 0.0, "hue": HUE_PATH_START}
 
-    if total_weight == 0:
-        return 0.0
+    hue_samples.sort(key=lambda sample: sample[0])
+    total_hue_weight = sum(weight for _, weight in hue_samples)
+    if total_hue_weight <= 1e-12:
+        representative_path = 180.0
+    else:
+        midpoint = total_hue_weight / 2.0
+        cumulative_weight = 0.0
+        representative_path = hue_samples[-1][0]
+        for path, weight in hue_samples:
+            cumulative_weight += weight
+            if cumulative_weight >= midpoint:
+                representative_path = path
+                break
 
-    average_a = weighted_a / total_weight
-    average_b = weighted_b / total_weight
-    return round(COLOR_AXIS_A * average_a + COLOR_AXIS_B * average_b, 6)
+    return {
+        "lightness": round(lightness_total / pixel_count, 6),
+        "chroma": round(chroma_total / pixel_count, 6),
+        "hue": round((HUE_PATH_START - representative_path) % 360.0, 6),
+    }
+
+
+def extend_lightness_cost(cost, jump):
+    return max(cost[0], jump), cost[1] + jump * jump
+
+
+def combine_lightness_cost(previous, internal, boundary_jump):
+    return (
+        max(previous[0], internal[0], boundary_jump),
+        previous[1] + internal[1] + boundary_jump * boundary_jump,
+    )
+
+
+def path_tiebreak(photos):
+    hue_distance = sum(
+        abs(hue_path(current["color_hue"]) - hue_path(previous["color_hue"]))
+        for previous, current in zip(photos, photos[1:])
+    )
+    return hue_distance, tuple(photo["path"] for photo in photos)
+
+
+def index_path_cost(stage, path):
+    cost = (0.0, 0.0)
+    for previous, current in zip(path, path[1:]):
+        jump = abs(
+            stage[current]["color_lightness"]
+            - stage[previous]["color_lightness"]
+        )
+        cost = extend_lightness_cost(cost, jump)
+    return cost
+
+
+def stage_lightness_paths(stage):
+    """Return the best lightness path for every possible stage endpoint pair."""
+    length = len(stage)
+    if length > MAX_EXACT_STAGE_SIZE:
+        ascending = sorted(
+            range(length),
+            key=lambda index: (
+                stage[index]["color_lightness"],
+                hue_path(stage[index]["color_hue"]),
+                stage[index]["path"],
+            ),
+        )
+        descending = list(reversed(ascending))
+        return {
+            (path[0], path[-1]): (index_path_cost(stage, path), path)
+            for path in (ascending, descending)
+        }
+
+    complete_mask = (1 << length) - 1
+    result = {}
+
+    for start in range(length):
+        states = {(1 << start, start): ((0.0, 0.0), [start])}
+        for mask in range(1 << length):
+            for end in range(length):
+                current = states.get((mask, end))
+                if current is None:
+                    continue
+
+                cost, path = current
+                for next_index in range(length):
+                    if mask & (1 << next_index):
+                        continue
+
+                    jump = abs(
+                        stage[end]["color_lightness"]
+                        - stage[next_index]["color_lightness"]
+                    )
+                    candidate_cost = extend_lightness_cost(cost, jump)
+                    candidate_path = path + [next_index]
+                    key = (mask | (1 << next_index), next_index)
+                    existing = states.get(key)
+                    if existing is None:
+                        states[key] = (candidate_cost, candidate_path)
+                        continue
+
+                    candidate_photos = [stage[index] for index in candidate_path]
+                    existing_photos = [stage[index] for index in existing[1]]
+                    if (candidate_cost, path_tiebreak(candidate_photos)) < (
+                        existing[0],
+                        path_tiebreak(existing_photos),
+                    ):
+                        states[key] = (candidate_cost, candidate_path)
+
+        for end in range(length):
+            state = states.get((complete_mask, end))
+            if state is not None:
+                result[(start, end)] = state
+
+    return result
+
+
+def assign_colorspace_order(photos):
+    """Assign ranks along the hue chain while smoothing adjacent lightness."""
+    stages = []
+    for lower, upper in zip(HUE_STAGE_BOUNDARIES, HUE_STAGE_BOUNDARIES[1:]):
+        stage = sorted(
+            [
+                photo
+                for photo in photos
+                if lower <= hue_path(photo["color_hue"]) < upper
+            ],
+            key=lambda photo: (hue_path(photo["color_hue"]), photo["path"]),
+        )
+        if not stage:
+            continue
+        stages.append(stage)
+
+    if not stages:
+        return
+
+    first_stage = stages[0]
+    first_options = stage_lightness_paths(first_stage)
+    states = {}
+    for end in range(len(first_stage)):
+        candidates = []
+        for start in range(len(first_stage)):
+            option = first_options.get((start, end))
+            if option is None:
+                continue
+            cost, path = option
+            sequence = [first_stage[index] for index in path]
+            candidates.append((cost, sequence))
+        if candidates:
+            states[end] = min(
+                candidates,
+                key=lambda candidate: (candidate[0], path_tiebreak(candidate[1])),
+            )
+
+    for stage in stages[1:]:
+        options = stage_lightness_paths(stage)
+        next_states = {}
+        for end in range(len(stage)):
+            candidates = []
+            for previous_cost, previous_sequence in states.values():
+                for start in range(len(stage)):
+                    option = options.get((start, end))
+                    if option is None:
+                        continue
+                    internal_cost, path = option
+                    current_sequence = [stage[index] for index in path]
+                    boundary_jump = abs(
+                        previous_sequence[-1]["color_lightness"]
+                        - current_sequence[0]["color_lightness"]
+                    )
+                    combined_cost = combine_lightness_cost(
+                        previous_cost,
+                        internal_cost,
+                        boundary_jump,
+                    )
+                    candidates.append(
+                        (combined_cost, previous_sequence + current_sequence)
+                    )
+            if candidates:
+                next_states[end] = min(
+                    candidates,
+                    key=lambda candidate: (
+                        candidate[0],
+                        path_tiebreak(candidate[1]),
+                    ),
+                )
+        states = next_states
+
+    _, ordered = min(
+        states.values(),
+        key=lambda state: (state[0], path_tiebreak(state[1])),
+    )
+    for rank, photo in enumerate(ordered):
+        photo["color_sort"] = rank
 
 
 def get_images(path):
@@ -130,7 +324,7 @@ def get_images(path):
             has_compressed = True
         color_source = get_min_path(original_path) if has_compressed else original_path
         with Image.open(color_source) as im:
-            color_sort = color_sort_key(im)
+            color = color_coordinates(im)
         result.append(
             {
                 "width": width,
@@ -139,9 +333,12 @@ def get_images(path):
                 "compressed_path": get_min_path(p),
                 "compressed": has_compressed,
                 "placeholder_path": get_placeholder_path(p),
-                "color_sort": color_sort,
+                "color_lightness": color["lightness"],
+                "color_chroma": color["chroma"],
+                "color_hue": color["hue"],
             }
         )
+    assign_colorspace_order(result)
     return result
 
 

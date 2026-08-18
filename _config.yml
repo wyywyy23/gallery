@@ -19,7 +19,7 @@ layout_style: ROWS
 spacing: 6
 
 # String(filename|shuffle|colorspace): Order photos in each album. Colorspace
-# follows a perceptual cool-to-warm path from blue/purple to orange/red.
+# follows an OKLCh hue path from purple through blue, green, yellow, and red.
 photo_sort: colorspace
 
 # Deprecated fallback for older configs without `photo_sort`.
