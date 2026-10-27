@@ -1,3 +1,16 @@
+var themeToggle = document.getElementById('theme-toggle');
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', function () {
+    var isLight = document.documentElement.getAttribute('data-theme') !== 'light';
+    document.documentElement.setAttribute('data-theme', isLight ? 'light' : 'dark');
+    var label = isLight ? 'Switch to dark mode' : 'Switch to light mode';
+    themeToggle.setAttribute('aria-label', label);
+    themeToggle.setAttribute('title', label);
+    themeToggle.setAttribute('aria-pressed', String(isLight));
+  });
+}
+
 var id = 'gallery';
 
 function reqListener() {
